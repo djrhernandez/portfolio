@@ -11,7 +11,7 @@ class Footer extends Component {
 			<React.Fragment>
 				<footer className="footy">
 				<p>Footer Div</p>
-				</div>
+				</footer>
 			</React.Fragment>
 		)
 	}

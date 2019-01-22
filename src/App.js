@@ -6,6 +6,9 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 
+import logo from './logo.svg';
+import './App.css';
+
 class App extends Component {
 	constructor() {
 		super();
