@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Resume from './components/resume/resume';
-import Projects from './components/projects/projects';
-import Contact from './components/contact/contact';
-import Footer from './components/footer/footer';
+import Header from './containers/header/header';
+import About from './containers/about/about';
+import Resume from './containers/resume/resume';
+import Projects from './containers/projects/projects';
+import Contact from './containers/contact/contact';
+import Footer from './containers/footer/footer';
 
 import logo from './logo.svg';
 import './App.css';
