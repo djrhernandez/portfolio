@@ -14,17 +14,16 @@ class Sidebar extends Component {
 			<React.Fragment>
 				<SidebarContainer>
 					<Profile>
-						<Portrait><img src={portrait}/></Portrait>
+						<Portrait><img className="img-fluid" src={portrait} alt='Thumbnail'/></Portrait>
 						<Title>DAVID A. HERNANDEZ II</Title>
 						<Contact>
-							<About><i class='material-icons'>person</i><li>Software Engineer/Developer</li></About>
-							<About><i class='material-icons'>pin_drop</i><li>Woodland Hills, CA</li></About>
-							<About><i class='material-icons'>email</i><li>djrhernandez@yahoo.com</li></About>
-							<About><i class='material-icons'>smartphone</i><li>(661) 444-3691</li></About>
+							<About><i className='material-icons'>person</i><li>Software Engineer/Developer</li></About>
+							<About><i className='material-icons'>pin_drop</i><li>Woodland Hills, CA</li></About>
+							<About><i className='material-icons'>email</i><li>djrhernandez@yahoo.com</li></About>
+							<About><i className='material-icons'>smartphone</i><li>(661) 444-3691</li></About>
 						</Contact>
-					</Profile>
-					<Profile>
-						<SubTitle><i class='material-icons'>computer</i><li>Skills:</li></SubTitle>
+
+						<SubTitle><i className='material-icons'>computer</i><li>Skills:</li></SubTitle>
 						<Headline>
 							<Skillbar percentage = {90} color = {colors.jet}>C#/C++</Skillbar>
 							<Skillbar percentage = {88} color = {colors.navy}>PHP</Skillbar>

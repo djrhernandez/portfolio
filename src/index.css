@@ -1,15 +1,21 @@
 body {
-    margin:			0;
-    padding: 		0;
+	width:		100%;
+    margin:		0;
+    padding: 	0;
 }
 
-wrapper {
+.wrapper {
 	display: 				grid;
-	grid-gap:				2vmin;
+	grid-gap:				3vmin;
 	grid-template-columns:	2fr 5fr;
 	grid-template-rows: 	2fr;
+
+	padding-right: 			15px;
+	padding-left: 			15px;
+	margin-right: 			auto;
+	margin-left: 			auto;
 }
 
-content {
-	/* border:					2px solid blue; */
+.content {
+	border:					2px solid black;
 }

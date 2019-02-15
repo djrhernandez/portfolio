@@ -1,25 +1,20 @@
 import styled from "styled-components";
+import { colors } from '../../themes/variables'
 
 export const Skill = styled.div`
-	margin:				15px;
-	font-size: 			1em;
-	font-weight: 		bold;
-	color: 				grey;
+	margin:				10px auto;
 	cursor: 			pointer;
 	position: 			relative;
 `;
 
 export const SkillName = styled.div`
-	font-family:	Overlock SC;
-	font-weight:	500;
-	font-size:		1.2em;
-	letter-spacing:	3px;
-	color:			black;
-	padding:		10px;
+	font-family:		Overlock SC;
+	font-weight:		500;
+	font-size:			1.25em;
+	letter-spacing:		3px;
+	color: 				${({color}) => colors.jet};
+	padding:			5px;
 `;
-
-
-
 
 export const Box = styled.div`
 	opacity: 		1;
@@ -34,7 +29,6 @@ export const Box = styled.div`
 `;
 
 export const Percentage = styled.div`
-	font-weight: 		bold;
 	vertical-align:		middle;
     text-align: 		center;
 	color:				darkgrey;
@@ -42,7 +36,7 @@ export const Percentage = styled.div`
 	width: 				${({percentage}) => percentage}%;
 	height: 			30px;
 	border-radius:		15px;
-	line-height:		25px;
+	line-height:		30px;
 
 	{/* On hover over each item in the sidebar */}
 	&:hover {

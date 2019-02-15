@@ -20,13 +20,13 @@ class App extends Component {
         return (
 			<React.Fragment>
             	<div className = "App">
-					<wrapper>
+					<div className="wrapper">
 						<Sidebar/>
-						<content>
+						<div className="content">
 							<Resume/>
 							<SocialMedia/>
-						</content>
-					</wrapper>
+						</div>
+					</div>
             	</div>
 			</React.Fragment>
         );
