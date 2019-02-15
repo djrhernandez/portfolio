@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import Header from './containers/header/header';
-import About from './containers/about/about';
-import Resume from './containers/resume/resume';
-import Projects from './containers/projects/projects';
-import Contact from './containers/contact/contact';
-import Footer from './containers/footer/footer';
-
-import logo from './logo.svg';
+import Sidebar from './components/Sidebar/Sidebar';
+import Resume from './components/Resume/Resume';
+import SocialMedia from './components/SocialMedia/SocialMedia';
 import './App.css';
 
 class App extends Component {
@@ -23,27 +18,46 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-				<header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <p> Edit <code>src/App.js</code> and save to reload. </p>
-                    <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                        Learn React
-                    </a>
-                </header>
-            </div>
+			<React.Fragment>
+            	<div className = "App">
+					<wrapper>
+						<Sidebar/>
+						<content>
+							<Resume/>
+							<SocialMedia/>
+						</content>
+					</wrapper>
+            	</div>
+			</React.Fragment>
         );
     }
 }
 export default App;
 /*
-<div className="App">
-	<Header>
-	<About>
-	<Resume>
-	<Projects>
-	<Contact>
-	<Footer>
-</div>
+<App>
+	<Wrapper>
+		<Sidebar>
+			<Profile>
+				<Thumbnail/>
+				<ContactInfo/>
+			</Profile>
+
+			<Skillbar></Skillbar>
+		</Sidebar>
+
+		<Resume>
+			<WorkExp></WorkExp>
+
+			<Education></Education>
+
+			<Projects></Projects>
+		</Resume>
+
+		<Footer>
+			<SocialMedia>
+			</SocialMedia>
+		</Footer>
+	</Wrapper>
+</App>
 
 */

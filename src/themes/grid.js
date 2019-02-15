@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import media from "theme/media";
+import media from "themes/media";
 
 // I should wrap every container with this, so we have some margins
 export const Container = styled.div`
@@ -12,18 +12,18 @@ export const Container = styled.div`
 		padding-right: 	60px;
 		padding-top: 	30px;
 	`};
-
-	${media.desktop`
-		padding-left: 	120px;
-		padding-right: 	120px;
-		padding-top: 	60px;
-	`};
 `;
 
 export const Flex = styled.div`
 	display: 		flex;
 	align-items: 	center;
 	margin-bottom: 	25px;
+
+	${media.desktop`
+		padding-left: 	120px;
+		padding-right: 	120px;
+		padding-top: 	60px;
+	`};
 `;
 
 export const Grid = styled.div`
@@ -43,3 +43,15 @@ export const [H1, H2, H3, P] = ["h1", "h2", "h3", "p"].map(
 tag => styled[tag]`
 ${({ align }) => align && `text-align: ${align};`};
 `);
+
+/*
+	Container:
+
+
+	Flex:
+
+
+	Grid:
+
+
+*/

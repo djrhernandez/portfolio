@@ -1,5 +1,7 @@
 import { css } from "styled-components"
 
+const media = { tablet, desktop };
+
 const sizes = {
 	tablet:		768,
 	desktop:	992
@@ -20,9 +22,5 @@ function desktop(...args) {
 		}
 	`;
 }
-
-const media = {
-	tablet, desktop
-};
 
 export default media;
