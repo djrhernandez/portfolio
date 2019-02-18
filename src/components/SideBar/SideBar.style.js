@@ -3,12 +3,14 @@ import { colors } from '../../themes/variables'
 
 export const SidebarContainer = styled.div`
 	justify-content:	flex-start;
+	border: 			1px solid black;
+	background-color: 	${({color}) => colors.carbon};
 	box-shadow:			0 4px 10px 0 rgba(0, 0, 0, 2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
 export const Profile = styled.div`
 	padding: 		15px;
-{/*box-shadow:		0 0 20px 5px rgba(0, 0, 0, 0.1) inset;*/}
+	{/*box-shadow:		0 0 20px 5px rgba(0, 0, 0, 0.1) inset;*/}
 `;
 
 export const Portrait = styled.div`
@@ -57,8 +59,8 @@ export const SubTitle = styled.div`
 `;
 
 export const Contact = styled.div`
-	margin:		auto 10px;
-	padding:	15px;
+	margin:		auto 5px;
+	padding:	5px;
 `;
 
 export const About = styled.ul`
@@ -73,6 +75,7 @@ export const About = styled.ul`
 	}
 	li {
 		padding: 			5px;
+		margin:				auto 15px;
 		list-style-type: 	none;
 	}
 `;

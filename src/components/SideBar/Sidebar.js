@@ -27,10 +27,10 @@ class Sidebar extends Component {
 						<Headline>
 							<Skillbar percentage = {90} color = {colors.jet}>C#/C++</Skillbar>
 							<Skillbar percentage = {88} color = {colors.navy}>PHP</Skillbar>
-							<Skillbar percentage = {85} color = {colors.slate}>Java</Skillbar>
-							<Skillbar percentage = {82} color = {colors.urban}>SQL</Skillbar>
-							<Skillbar percentage = {78} color = {colors.red}>JavaScript</Skillbar>
-							<Skillbar percentage = {75} color = {colors.burgundy}>Python</Skillbar>
+							<Skillbar percentage = {85} color = {colors.blue}>Java</Skillbar>
+							<Skillbar percentage = {82} color = {colors.platinum}>SQL</Skillbar>
+							<Skillbar percentage = {78} color = {colors.portland}>JavaScript</Skillbar>
+							<Skillbar percentage = {75} color = {colors.jade}>Python</Skillbar>
 						</Headline>
 					</Profile>
 				</SidebarContainer>

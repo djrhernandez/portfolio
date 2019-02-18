@@ -22,10 +22,9 @@ class App extends Component {
             	<div className = "App">
 					<div className="wrapper">
 						<Sidebar/>
-						<div className="content">
-							<Resume/>
+						<Resume>
 							<SocialMedia/>
-						</div>
+						</Resume>
 					</div>
             	</div>
 			</React.Fragment>
