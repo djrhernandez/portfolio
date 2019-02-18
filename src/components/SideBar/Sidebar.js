@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { SidebarContainer, Profile, Portrait, Title, SubTitle, Contact, About, Headline } from "./Sidebar.style"
-import Skillbar from './SkillBar'
-import portrait from '../../containers/images/portrait.jpg'
-import { colors } from '../../themes/variables'
+import { Profile, Portrait, Title, SubTitle, Contact, About, Headline } from "./Sidebar.style"
+import Skillbar from './SkillBar';
+import portrait from '../../containers/images/portrait.jpg';
+import { colors } from '../../themes/variables';
+import { Container, Grid } from '../../themes/grid';
 
 class Sidebar extends Component {
 	constructor(props) {
@@ -12,19 +13,20 @@ class Sidebar extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<SidebarContainer>
-					<Profile>
+				<Container>
+					<Profile>Profile
 						<Portrait><img className="img-fluid" src={portrait} alt='Thumbnail'/></Portrait>
 						<Title>DAVID A. HERNANDEZ II</Title>
-						<Contact>
+						<Contact>About
 							<About><i className='material-icons'>person</i><li>Software Engineer/Developer</li></About>
 							<About><i className='material-icons'>pin_drop</i><li>Woodland Hills, CA</li></About>
 							<About><i className='material-icons'>email</i><li>djrhernandez@yahoo.com</li></About>
 							<About><i className='material-icons'>smartphone</i><li>(661) 444-3691</li></About>
 						</Contact>
 
+						Subtitle
 						<SubTitle><i className='material-icons'>computer</i><li>Skills:</li></SubTitle>
-						<Headline>
+						<Headline>Headlines
 							<Skillbar percentage = {90} color = {colors.jet}>C#/C++</Skillbar>
 							<Skillbar percentage = {88} color = {colors.navy}>PHP</Skillbar>
 							<Skillbar percentage = {85} color = {colors.blue}>Java</Skillbar>
@@ -33,7 +35,7 @@ class Sidebar extends Component {
 							<Skillbar percentage = {75} color = {colors.jade}>Python</Skillbar>
 						</Headline>
 					</Profile>
-				</SidebarContainer>
+				</Container>
 			</React.Fragment>
 		);
 	}

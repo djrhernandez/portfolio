@@ -1,16 +1,9 @@
 import styled from "styled-components";
-import { colors } from '../../themes/variables'
-
-export const SidebarContainer = styled.div`
-	justify-content:	flex-start;
-	border: 			1px solid black;
-	background-color: 	${({color}) => colors.carbon};
-	box-shadow:			0 4px 10px 0 rgba(0, 0, 0, 2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
-`;
+import { colors } from '../../themes/variables';
 
 export const Profile = styled.div`
-	padding: 		15px;
-	{/*box-shadow:		0 0 20px 5px rgba(0, 0, 0, 0.1) inset;*/}
+	margin: 	auto;
+	padding:	initial;
 `;
 
 export const Portrait = styled.div`

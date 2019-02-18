@@ -1,22 +1,7 @@
 body {
+	height: 	100%;
 	width:		100%;
     margin:		0;
     padding: 	0;
 	background-image: linear-gradient(to right bottom, #2c2f40, #3f4454, #69717f, #808995);
-}
-
-.wrapper {
-	display: 				grid;
-	grid-gap:				3vmin;
-	grid-template-columns:	2fr 5fr;
-	grid-template-rows: 	2fr;
-
-	padding-right: 			15px;
-	padding-left: 			15px;
-	margin-right: 			auto;
-	margin-left: 			auto;
-}
-
-.content {
-	border:					2px solid black;
 }

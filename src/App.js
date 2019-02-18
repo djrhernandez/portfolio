@@ -3,6 +3,8 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Resume from './components/Resume/Resume';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import './App.css';
+import { Wrapper, Container, Grid, Flex } from './themes/grid';
+import Projects from './containers/projects';
 
 class App extends Component {
 	constructor() {
@@ -20,12 +22,24 @@ class App extends Component {
         return (
 			<React.Fragment>
             	<div className = "App">
-					<div className="wrapper">
+					<Wrapper>
 						<Sidebar/>
-						<Resume>
+						<Container>
+							<Resume/>
 							<SocialMedia/>
-						</Resume>
-					</div>
+						</Container>
+					</Wrapper>
+
+
+
+					{/*<div className="wrapper">
+						<Sidebar/>
+						<div className="content">
+							<Resume/>
+							<SocialMedia/>
+							<Projects/>
+						</div>
+					</div>*/}
             	</div>
 			</React.Fragment>
         );
