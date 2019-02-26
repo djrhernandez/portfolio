@@ -1,40 +1,66 @@
 import React, { Component } from 'react';
-import { ResumeContainer, Headline } from './Resume.style';
-import { Container, Grid, Section } from '../../themes/grid';
+import { Headline } from './Resume.style';
+import { Grid, Section } from '../../themes/grid';
 import Objective from '../../containers/objective/objective';
 import Education from '../../containers/education/education';
 import Coursework from '../../containers/coursework/coursework';
-import Projects from '../../containers/projects';
-class Resume extends Component {
-	constructor(props) {
-		super(props);
+import Projects from '../../containers/projects/projects';
+import Experience from '../../containers/experience/experience';
+import Interests from '../../containers/interests/interests';
 
-	}
+class Resume extends Component {
+	icons = 'material-icons';
 
 	render() {
 		return (
 			<React.Fragment>
 				<Grid>
 					<Section>
-						<Headline><i className='material-icons'>star</i><li>Objective:</li></Headline>
+						<Headline>
+							<i className={this.icons}>star</i>
+							<li>Objective:</li>
+						</Headline>
 						<Objective/>
-						<Headline><i className='material-icons'>school</i><li>Education</li></Headline>
+					</Section>
+
+					<Section>
+						<Headline>
+							<i className={this.icons}>school</i>
+							<li>Education</li>
+						</Headline>
 						<Education/>
-						<Headline><i className='material-icons'>subject</i><li>Related Coursework</li></Headline>
+					</Section>
+
+					<Section>
+						<Headline>
+							<i className={this.icons}>subject</i>
+							<li>Related Coursework</li>
+						</Headline>
 						<Coursework/>
 					</Section>
 
 					<Section>
-						<Headline><i className='material-icons'>code</i><li>Projects</li></Headline>
+						<Headline>
+							<i className={this.icons}>code</i>
+							<li>Projects</li>
+						</Headline>
 						<Projects/>
 					</Section>
 
 					<Section>
-						<Headline><i className='material-icons'>work</i><li>Work Experience</li></Headline>
+						<Headline>
+							<i className={this.icons}>work</i>
+							<li>Work Experience</li>
+						</Headline>
+						<Experience/>
 					</Section>
 
 					<Section>
-						<Headline><i className='material-icons'>whatshot</i><li>Other Interests:</li></Headline>
+						<Headline>
+							<i className={this.icons}>whatshot</i>
+							<li>Other Interests:</li>
+						</Headline>
+						<Interests/>
 					</Section>
 				</Grid>
 			</React.Fragment>
@@ -42,31 +68,3 @@ class Resume extends Component {
 	}
 }
 export default Resume;
-
-/*
-	<Resume>
-		<Section>
-			<Objective/>
-			<Education>
-				<EducationItem/>
-				<EducationItem/>
-			</Education>
-			<Skills></Skills>
-			<Coursework></Coursework>
-		</Section>
-
-		<Section>
-			<Projects>
-			</Projects>
-		</Section>
-
-		<Section>
-			<Work></Work>
-		</Section>
-
-		<Section>
-			<Interests></Interests>
-		</Section>
-
-	</Resume>
-*/

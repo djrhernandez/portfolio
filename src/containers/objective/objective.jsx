@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
-import { colors } from '../../themes/variables';
+import { Text } from './objective.style.js';
+import { Content } from '../../themes/grid';
 
 class Objective extends Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		return (
 			<React.Fragment>
-				<div className='container-fluid'>
-					<p>
-					A computer science graduate is seeking advancement
-					as a Software Developer or Engineer within the growing
-					field of information technology. Offering extensive
-					knowledge of frontend and backend software design,
-					development and testing of software applications,
-					and deployment and support using agile development
-					methodologies.
-					</p>
-				</div>
+				<Content>
+					<Text>
+						A computer science graduate is seeking advancement
+						as a Software Developer or Engineer within the growing
+						field of information technology. Offering extensive
+						knowledge of frontend and backend software design,
+						development and testing of software applications,
+						and deployment and support using agile development
+						methodologies.
+					</Text>
+				</Content>
 			</React.Fragment>
 		)
 	}

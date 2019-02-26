@@ -1,11 +1,14 @@
 export const colors = {
-	/* BLACKS */
-	jet:		'#151515',	/* Nice starting base color */
-	darkgrey:	'#272727',	/* Clean and Classic */
+	/* BLACKS/GREYS */
+	jet:		'#111111',	/* Nice starting base color */
+	darkgrey:	'#A9A9A9',
+	grey:		'#BEBEBE',
+	silver:		'#C0C0C0', 	/* Base color for panels */
+	lightgrey:	'#D3D3D3',
+	platinum:	'#DCDCDC', 	/* For source code snippets? */
 
-	/* GREYS */
-	carbon:		'#A9A9A9', 	/* Base color for panels */
-	platinum:	'#D1E8E2', 	/* For source code snippets? */
+	/* WHITES */
+	ivory:		'#FFFFF0',
 
 	/* REDS */
 	red:		'#CC0C0C',

@@ -1,11 +1,6 @@
 import styled from "styled-components";
 import { colors } from '../../themes/variables';
 
-export const Profile = styled.div`
-	margin: 	auto;
-	padding:	initial;
-`;
-
 export const Portrait = styled.div`
 	display:		block;
 	position:		relative;
@@ -28,7 +23,6 @@ export const Title = styled.div`
 	font-size: 		2em;
 	text-align:		center;
 	margin:			20px 5px;
-	box-shadow:		0 10px 30px 0 rgba(0, 0, 0, 0.025);
 	border-radius:	5px;
 `;
 
@@ -36,13 +30,13 @@ export const SubTitle = styled.div`
 	display:		flex;
 	font-family: 	Spectral SC;
 	font-size: 		1.75em;
-	margin:			20px 5px;
-	box-shadow:		0 10px 30px 0 rgba(0, 0, 0, 0.025);
+	padding:		5px;
 
 	.material-icons {
 		text-shadow:	2px 2px 10px rgba(127, 127, 127, 0.25);
 		line-height:	1.75;
 		margin:			5px;
+		color: ${({color}) => colors.jet};
 	}
 	li {
 		padding: 			5px;
@@ -76,16 +70,3 @@ export const About = styled.ul`
 export const Headline = styled.div`
 	margin:		10px;
 `;
-/*
-<Sidebar>
-	<Profile>
-		<Thumbnail/>
-		<ContactInfo/>
-	</Profile>
-
-	<Skillbar></Skillbar>
-</Sidebar>
-
-Title:
-background-color: ${({color}) => colors.ivory};
-*/
