@@ -1,5 +1,14 @@
-import styled from "styled-components";
-import { colors } from '../../themes/variables';
+import styled from "styled-components"
+import { colors } from '../../themes/variables'
+
+export const Work = styled.div`
+	.work {
+		padding-top:		2rem!important;
+		color:				${({color}) => colors.ivory};
+		background-color:	${({color}) => colors.mud};
+	}
+`;
+
 
 export const Sector = styled.div`
 	display: 				grid;

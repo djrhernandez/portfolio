@@ -1,11 +1,32 @@
-import styled from "styled-components";
-import { colors } from '../../themes/variables';
+import styled from "styled-components"
+import { colors } from '../../themes/variables'
+
+export const Courses = styled.div`
+	.coursework {
+		padding-top:		2rem!important;
+		color:				${({color}) => colors.mud};
+		background-color:	${({color}) => colors.ivory};
+	}
+
+	.card {
+		color:				${({color}) => colors.ivory};
+		background-color:	${({color}) => colors.mud};
+		box-shadow:			0 5px 10px 0 rgba(0, 0, 0, 2),
+							0 0 15px 5px rgba(0, 0, 0, 0.15) inset;
+
+		.card-body {
+			padding:		1.25rem 1rem!important;
+
+		}
+	}
+`;
 
 export const Tabs = styled.div`
 
 	.panel {
 		border:				1px solid black;
-		background-color:	${({color}) => colors.silver};
+		color:	${({color}) => colors.ivory};
+		background-color:	${({color}) => colors.mud};
 		border-radius:		5px;
 		overflow:			hidden;
 	}
@@ -22,18 +43,19 @@ export const Tabs = styled.div`
 
 	.panel-body {
 		padding:			10px;
-		background-color:	${({color}) => colors.platinum};
+		color:				${({color}) => colors.mud};
+		background-color:	${({color}) => colors.ivory};
 	}
 
 	li {
-		
+		list-style-type:	none;
 	}
 
 	a {
-		color:	${({color}) => colors.jet};
+		color:	${({color}) => colors.ivory};
 
 		&:hover {
-			color:	${({color}) => colors.portland};
+			color:	${({color}) => colors.tangerine};
 		}
 	}
 `;

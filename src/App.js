@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
-import Resume from './components/Resume/Resume';
-import SocialMedia from './components/SocialMedia/SocialMedia';
-import './App.css';
-import { Wrapper, Container } from './themes/grid';
+import React, { Component } from 'react'
+import Navigation from './components/Navigation/Navigation'
+import Header from './components/Header/Header'
+import Resume from './components/Resume/Resume'
+import SocialMedia from './components/SocialMedia/SocialMedia'
+import { Wrapper } from './themes/grid'
+import './App.css'
+import att from './containers/images/attitunes-logo.png'
+import mmc from './containers/images/MMC.png'
+import csu from './containers/images/csub.png'
 
 class App extends Component {
 	constructor() {
@@ -20,13 +24,17 @@ class App extends Component {
     render() {
         return (
 			<React.Fragment>
-            	<div className = "App">
+            	<div className="App container-fluid">
 					<Wrapper>
-						<Sidebar/>
-						<Container>
-							<Resume/>
-							<SocialMedia/>
-						</Container>
+						<Navigation/>
+						<Header/>
+						<Resume/>
+						<SocialMedia/>
+						<div className='scroll-to-top d-lg-none position-fixed'>
+							<a className='js-scroll-trigger d-block' href='#page-top'>
+								<i className='material-icons'>expand_less</i>
+							</a>
+						</div>
 					</Wrapper>
             	</div>
 			</React.Fragment>
@@ -34,31 +42,3 @@ class App extends Component {
     }
 }
 export default App;
-/*
-<App>
-	<Wrapper>
-		<Sidebar>
-			<Profile>
-				<Thumbnail/>
-				<ContactInfo/>
-			</Profile>
-
-			<Skillbar></Skillbar>
-		</Sidebar>
-
-		<Resume>
-			<WorkExp></WorkExp>
-
-			<Education></Education>
-
-			<Projects></Projects>
-		</Resume>
-
-		<Footer>
-			<SocialMedia>
-			</SocialMedia>
-		</Footer>
-	</Wrapper>
-</App>
-
-*/

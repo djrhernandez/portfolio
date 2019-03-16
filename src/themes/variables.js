@@ -6,26 +6,24 @@ export const colors = {
 	silver:		'#C0C0C0', 	/* Base color for panels */
 	lightgrey:	'#D3D3D3',
 	platinum:	'#DCDCDC', 	/* For source code snippets? */
-
-	/* WHITES */
 	ivory:		'#FFFFF0',
 
-	/* REDS */
 	red:		'#CC0C0C',
-	burgundy:	'#990909',
+	burgundy:	'#8B0000',
+	orange:		'#FF8C00',
+	gold:		'#FFD700',
+	green:		'#228B22',
+	navy:		'#000080',	/* Dominant Color */
+	blue:		'#000080',
+	purple:		'#800080',
+	cyan:		'#00FFFF',
 
-	/* ORANGES */
-	portland:	'#FF652F',
-
-	/* YELLOWS */
-	yellow:		'#FFE400',
-
-	/* GREENS */
-	jade:		'#14A76C',
-
-	/* BLUES */
-	navy:		'#161E55',	/* Dominant Color */
-	blue:		'#000080'
+	white:		'#F8F3F2',
+	dim:		'#B7B0A8',
+	tangerine:	'#CB462B',
+	yellow:		'#DBB43D',
+	mud:		'#303037',
+	/* Red, Orange, Yellow, Green, Blue, Indigo, Violet */
 }
 
 /*	Color Scheme:

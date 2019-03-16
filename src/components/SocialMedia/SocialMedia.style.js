@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { SocialIcon } from "react-social-icons";
-//import media from "../../themes/media";
+import styled from "styled-components"
+import { SocialIcon } from "react-social-icons"
+//import media from "../../themes/media"
 
 export const Footer = styled.ul`
 	margin:				15px auto;
@@ -21,7 +21,6 @@ export const Social = styled(SocialIcon)`
 	&:hover {
 		transform: 			rotate(360deg);
 		-webkit-transform: 	rotate(360deg);
-
 	}
 `;
 

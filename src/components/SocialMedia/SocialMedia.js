@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Footer, Social } from './SocialMedia.style';
+import React, { Component } from 'react'
+import { Footer, Social } from './SocialMedia.style'
 
 class SocialMedia extends Component {
   render() {

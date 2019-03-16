@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import csub from '../images/csub-logo.png';
-import will from '../images/bearcat-logo.png';
-import { Sector } from './interests.style.js';
-import { Content } from '../../themes/grid';
+import React, { Component } from 'react'
+import { Others } from './interests.style.js'
+//import { Content } from '../../themes/grid'
 
 class Interests extends Component {
 	icons = 'material-icons';
@@ -10,15 +8,19 @@ class Interests extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Content>
-					<Sector>
-						<div>
-							<li>Alumni of the Sigma Chi Fraternity</li>
-							<li>CSUB Computer Science Club</li>
-							<li>KIT Community and MESH Cowork</li>
+				<Others>
+					<section className='interests' id='interests'>
+						<div className='container py-5'>
+							<h2 className='text-center'>Interests</h2>
+							<hr className='hot-dark'/>
+							<div className='list'>
+								<li>Alumni of the Sigma Chi Fraternity</li>
+								<li>CSUB Computer Science Club</li>
+								<li>KIT Community and MESH Cowork</li>
+							</div>
 						</div>
-					</Sector>
-				</Content>
+					</section>
+				</Others>
 			</React.Fragment>
 		)
 	}
@@ -26,3 +28,15 @@ class Interests extends Component {
 
 }
 export default Interests;
+
+/*
+<Content>
+<Sector>
+<div>
+<li>Alumni of the Sigma Chi Fraternity</li>
+<li>CSUB Computer Science Club</li>
+<li>KIT Community and MESH Cowork</li>
+</div>
+</Sector>
+</Content>
+*/
