@@ -27,15 +27,17 @@ export const Sector = styled.div`
 	.text {
 		font-size:		1.5rem;
 		letter-spacing:	0.15rem;
-		li {
-			margin:		0!important;
-			padding:	0!important;
-		}
+
 		.subtext {
 			font-size:		1rem;
 			padding-left:	1rem!important;
 			padding-right:	1rem!important;
 			margin:			0 0.25rem!important;
+			li {
+				margin:				0!important;
+				padding:			0!important;
+				list-style-type: 	initial;
+			}
 		}
 
 	}

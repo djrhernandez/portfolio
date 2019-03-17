@@ -21,7 +21,9 @@ class Education extends Component {
 								<div className='text col-7 px-auto py-3'>
 									<li><a href="https://www.cs.csub.edu">California State University</a></li>
 									<li>Bakersfield, CA</li>
-									<p className='subtext'>B.S. in Computer Science, GPA: 3.28</p>
+									<p className='subtext'>
+										<li>B.S. in Computer Science, GPA: 3.28</li>
+									</p>
 								</div>
 								<div className='date col-3'>
 									<i className={this.icons}>date_range</i>
@@ -37,8 +39,11 @@ class Education extends Component {
 								<div className='text col-7 px-auto py-3'>
 									<li><a href="https://www.willamette.edu">Willamette University</a></li>
 									<li>Salem, OR</li>
-									<p className='subtext'>B.A. in Economics, Minor in Psychology</p>
-									<p className='subtext'>Focus in Behavioral Economics</p>
+									<p className='subtext'>
+										<li>B.A. in Economics, Minor in Psychology</li>
+										<li>Focus in Behavioral Economics</li>
+									</p>
+
 								</div>
 								<div className='date col-3'>
 									<i className={this.icons}>date_range</i>

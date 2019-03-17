@@ -9,8 +9,8 @@ export const Courses = styled.div`
 	}
 
 	.card {
-		color:				${({color}) => colors.ivory};
-		background-color:	${({color}) => colors.mud};
+		color:				${({color}) => colors.mud};
+		background-color:	${({color}) => colors.pewter};
 		box-shadow:			0 5px 10px 0 rgba(0, 0, 0, 2),
 							0 0 15px 5px rgba(0, 0, 0, 0.15) inset;
 

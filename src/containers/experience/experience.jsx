@@ -16,68 +16,102 @@ class Experience extends Component {
 							<h2 className='text-center'>Work Experience</h2>
 							<hr className='work-light'/>
 							<div className='row'>
+								<div className='image col-2'>
+									<img className='img-fluid' src={bb} alt='Best Buy'/>
+								</div>
+								<div className='text col-7 px-auto py-3'>
+									<li>
+										<a href="https://www.bestbuy.com">Best Buy, Inc.</a>
+										<li className='location'>Bakersfield, CA</li>
+									</li>
+									<li className='pb-3'>Mobile Sales Consultant</li>
+									<p className='subtext'>
+										<li>
+											Improved mobile sales revenue and store profits
+											by 5% each fiscal quarter by providing exceptional
+											expertise about the latest technology,
+											pricing plans, and service features within the
+											telecommunication industry, while cultivating a
+											more personalized experience for each customer.
+										</li>
+									</p>
+								</div>
+								<div className='date col-3'>
+									<i className={this.icons}>date_range</i>
+									<li className='range my-3'>July 2017 - April 2018</li>
+								</div>
 							</div>
 
+							<div className='row'>
+								<div className='image col-2'>
+									<img className='img-fluid' src={sway} alt='Safeway'/>
+								</div>
+								<div className='text col-7 px-auto py-3'>
+									<li>
+										<a href="https://www.safeway.com">Safeway, Inc.</a>
+										<li className='location'>Salem, OR</li>
+									</li>
+									<li className='pb-3'>Food Clerk/Stocker</li>
+									<p className='subtext'>
+										<li>
+											Operated an electronic scanning cash register
+											to process various forms of payment.
+										</li>
+										<li>
+											Assisted in balancing cash drawers, unloading
+											deliveries, running inventory scans, stocking
+											shelves, and handling emergencies and customer
+											complaints.
+										</li>
+									</p>
+								</div>
+								<div className='date col-3'>
+									<i className={this.icons}>date_range</i>
+									<li className='range my-3'>June 2014 - April 2015</li>
+								</div>
+							</div>
+
+							<div className='row'>
+								<div className='image col-2'>
+									<img className='img-fluid' src={will} alt='Willamette'/>
+								</div>
+								<div className='text col-7 px-auto py-3'>
+									<li>
+										<a href="https://www.safeway.com">Willamete University</a>
+										<li className='location'>Salem, OR</li>
+									</li>
+									<li className='pb-3'>Campus Safety Dispatcher</li>
+									<p className='subtext'>
+										<li>
+											Compiled statistics and recorded descriptions
+											of events and emergencies for incident reports.
+										</li>
+										<li>
+											Relayed work orders, messages, and information
+											to and from campus safety officers, supervisors,
+											and university facilities.
+										</li>
+										<li>
+											Interacted with customers or supervising
+											personnel in order to address questions and
+											answer problems.
+										</li>
+									</p>
+								</div>
+								<div className='date col-3'>
+									<i className={this.icons}>date_range</i>
+									<li className='range my-3'>August 2013 - May 2014</li>
+								</div>
+							</div>
 						</div>
 					</section>
 				</Work>
 			</React.Fragment>
 		)
 	}
-
-
 }
 export default Experience;
 /*
-<Content>
-<Sector>
-<div className='position'>
-<img className='img-fluid' src={bb} alt='Best Buy'/>
-<div className='title'><b><a href="https://www.bestbuy.com">Best Buy Inc.</a></b></div>
-<div className='subtitle'>Mobile Sales Consultant</div>
-</div>
-<div className='date'>
-<div><i className={this.icons}>date_range</i></div>
-<div><li>July 2017 - April 2018</li></div>
-</div>
-<div className='text'>
-<li>Improved mobile sales revenue and store profits
-by 5% each fiscal quarter by providing exceptional
-expertise about the latest technology,
-pricing plans, and service features within the
-telecommunication industry, while cultivating a
-more personalized experience for each customer.
-</li>
-</div>
-</Sector>
-</Content>
-
-<Content>
-<Sector>
-<div className='position'>
-<img className='img-fluid' src={sway} alt='Safeway Inc.'/>
-<div className='title'><b><a href="https://www.safeway.com">Safeway Inc.</a></b></div>
-<div className='subtitle'>Food Clerk/Stocker</div>
-</div>
-<div className='date'>
-<div><i className={this.icons}>date_range</i></div>
-<div><li>June 2014 - April 2015</li></div>
-</div>
-<div className='text'>
-<li>
-Operated an electronic scanning cash register
-to process various forms of payment.
-</li>
-<li>
-Assisted in balancing cash drawers, unloading
-deliveries, running inventory scans, stocking
-shelves, and handling emergencies and customer
-complaints.
-</li>
-</div>
-</Sector>
-</Content>
-
 <Content>
 <Sector>
 <div className='position'>
