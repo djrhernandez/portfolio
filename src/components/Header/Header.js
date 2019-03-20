@@ -9,12 +9,15 @@ class Header extends Component {
 			<React.Fragment>
 				<Container>
 					<header className='masthead'>
-						<div className='container'>
+						<div className='container-fluid'>
 							<img className='img-fluid mb-5 d-block mx-auto' src={portrait} alt='Thumbnail'/>
 							<h1>David A. Hernandez II</h1>
-							<hr className='star-dark'/>
-							<h2 className='font-weight-light mb-0'>Software Engineer - Web Developer - Information Security Analyst
-							</h2>
+							<hr className='star-light'/>
+							<div className='sub-header'>
+								<h2 className='font-weight-light mb-0'>
+									Software Engineer - Web Developer - Information Security Analyst
+								</h2>
+							</div>
 						</div>
 					</header>
 				</Container>

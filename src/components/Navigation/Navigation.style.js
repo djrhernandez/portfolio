@@ -4,20 +4,17 @@ import media from "../../themes/media"
 
 export const NavContainer = styled.div`
 	#mainNav {
-		padding-top:		1rem;
-		padding-bottom:		1rem;
 		color:				${({color}) => colors.ivory};
 		background-color:	${({color}) => colors.jet};
+		font-size:			1rem;
 		letter-spacing:		0.2rem;
 		text-transform:		uppercase!important;
 		${media.laptop`
-			padding-top:	1.5rem;
-			padding-bottom:	1.5rem;
+			font-size:		1.2rem;
 			transition:		padding-top .3s, padding-bottom .3s;
 		`};
 
 		.navbar-brand {
-			font-size:	1rem;
 			color:	${({color}) => colors.ivory};
 		}
 
@@ -31,10 +28,33 @@ export const NavContainer = styled.div`
 		}
 	}
 
+	/*#mainNav .navbar-nav li.nav-item {
+		a.nav-link {
+			height:	100%;
+			color:	;
+		}
+		.dropdown {
+			height:	100%;
+			button.dropdown-toggle {
+				border:				0!important;
+				margin:				inherit;
+				text-transform:		inherit;
+				letter-spacing:		inherit;
+				color:				inherit;
+				background-color:	inherit;
+
+				&:hover {
+					color: ;
+				}
+			}
+			button.dropdown-toggle.active {
+			}
+		}
+	}*/
+
 	#mainNav .navbar-nav li.nav-item a.nav-link {
 		color:	${({color}) => colors.ivory};
 	}
-
 	#mainNav .navbar-nav li.nav-item a.nav-link:hover {
 		color:	${({color}) => colors.tangerine};
 	}
@@ -66,13 +86,13 @@ export const NavContainer = styled.div`
 
 	.navbar-shrink {
 		${media.laptop`
-			padding-top:	0.5rem;
-			padding-bottom:	0.5rem;
+			padding-top:	0.25rem;
+			padding-bottom:	0.25rem;
 		`};
 	}
 	.navbar-shrink .navbar-brand {
 		${media.laptop`
-			font-size:	1.5rem;
+
 		`};
 	}
 

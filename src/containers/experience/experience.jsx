@@ -20,10 +20,10 @@ class Experience extends Component {
 									<img className='img-fluid' src={bb} alt='Best Buy'/>
 								</div>
 								<div className='text col-7 px-auto py-3'>
-									<li>
+									<div>
 										<a href="https://www.bestbuy.com">Best Buy, Inc.</a>
 										<li className='location'>Bakersfield, CA</li>
-									</li>
+									</div>
 									<li className='pb-3'>Mobile Sales Consultant</li>
 									<p className='subtext'>
 										<li>
@@ -47,10 +47,10 @@ class Experience extends Component {
 									<img className='img-fluid' src={sway} alt='Safeway'/>
 								</div>
 								<div className='text col-7 px-auto py-3'>
-									<li>
+									<div>
 										<a href="https://www.safeway.com">Safeway, Inc.</a>
 										<li className='location'>Salem, OR</li>
-									</li>
+									</div>
 									<li className='pb-3'>Food Clerk/Stocker</li>
 									<p className='subtext'>
 										<li>
@@ -76,10 +76,10 @@ class Experience extends Component {
 									<img className='img-fluid' src={will} alt='Willamette'/>
 								</div>
 								<div className='text col-7 px-auto py-3'>
-									<li>
+									<div>
 										<a href="https://www.safeway.com">Willamete University</a>
 										<li className='location'>Salem, OR</li>
-									</li>
+									</div>
 									<li className='pb-3'>Campus Safety Dispatcher</li>
 									<p className='subtext'>
 										<li>

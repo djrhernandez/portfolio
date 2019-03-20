@@ -4,8 +4,9 @@ import media from "../../themes/media"
 
 export const Container = styled.div`
 
-	text-align:		center!important;
-	background-color: 	${({color}) => colors.ivory};
+	text-align:			center!important;
+	color:				${({color}) => colors.ivory};
+	background-color: 	${({color}) => colors.mud};
 	box-shadow:			0 4px 20px 0 rgba(0, 0, 0, 2);
 
 	header.masthead {
@@ -17,7 +18,12 @@ export const Container = styled.div`
 			padding-top:	calc(4rem + 72px);
 			padding-bottom:	4rem;
 			letter-spacing:	0.5rem;
-		`}
+		`};
+
+		.sub-header {
+			padding:	1.5rem;
+			text-align:	center;
+		}
 
 		h1 {
 			font-size:		2.25rem;

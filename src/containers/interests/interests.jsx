@@ -13,20 +13,20 @@ class Interests extends Component {
 						<div className='container py-5'>
 							<h2 className='text-center'>Interests</h2>
 							<hr className='hot-dark'/>
-							<div class="card-deck py-3">
-								<div class="card">
-									<div class="card-body">
-										<p class="card-text">Alumni of the Sigma Chi Fraternity</p>
+							<div className="card-deck py-3">
+								<div className="card">
+									<div className="card-body">
+										<p className="card-text">Alumni of the Sigma Chi Fraternity</p>
 									</div>
 								</div>
-								<div class="card">
-									<div class="card-body">
-										<p class="card-text">CSUB Computer Science Club</p>
+								<div className="card">
+									<div className="card-body">
+										<p className="card-text">CSUB Computer Science Club</p>
 									</div>
 								</div>
-								<div class="card">
-									<div class="card-body">
-										<p class="card-text">KIT Community & MESH Cowork</p>
+								<div className="card">
+									<div className="card-body">
+										<p className="card-text">KIT Community & MESH Cowork</p>
 									</div>
 								</div>
 							</div>

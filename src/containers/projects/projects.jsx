@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { Cards } from './projects.style.js'
-import att from '../images/attitunes-logo.png'
-import mmc from '../images/MMC.png'
-import csu from '../images/csub.png'
-/*import eqp from '../images/projectect.jpg'*/
+import att from '../images/projects/attitunes-logo.png'
+import mmc from '../images/projects/MMC.png'
+import csu from '../images/projects/csub.png'
+//import aproj from '../images/projects/attitunes-pic.png'
+import mproj from '../images/projects/mercy-medical-clinic.png'
+import cproj from '../images/projects/csub-website-project.png'
 
 class projects extends Component {
 	render() {
@@ -57,92 +59,124 @@ class projects extends Component {
 								</div>
 							</div>
 						</div>
+
+						{/*<!-- project modals -->*/}
+						<div className='project-modal mfp-hide' id='project-modal-1'>
+							<div className='project-modal-dialog'>
+								<a className='close-button d-none d-md-block project-modal-dismiss' href='#/'>
+									<i className='material-icons'>close</i>
+								</a>
+								<div className='container-fluid'>
+									<div className='row'>
+										<div className='col-lg-11 mx-auto'>
+											<div className='project-modal-title'>
+												<h2 className=''>Attitunes</h2>
+												<h3 className='text-secondary my-3'>An Emotion-Based Music Player</h3>
+												<hr className='music-dark mb-5'></hr>
+												<img className='img-fluid mb-5' src={att} alt='Attitunes'/>
+											</div>
+											<div className='project-modal-text'>
+												<p className='text mb-3'>
+													A desktop & mobile software application that plays music
+													based on a user’s facial emotions using Microsoft Cognitive Services API.
+													Implemented a KNN algorithm under a strict pair programming regiment
+													to weigh facial emotions with predetermined song values.
+												</p>
+												<p className='text mb-3'>
+													<b>Languages:</b> C++/C#, Java
+												</p>
+												<p className='text mb-3'>
+													<b>Frameworks:</b> Microsoft Azure Cognitive Services, AForge
+												</p>
+												<p className='text mb-3'>
+													<b>Applications:</b> Android Studio, Visual Studio, Xamarin
+												</p>
+											</div>
+											<div className='project-modal-btn'>
+												<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className='project-modal mfp-hide' id='project-modal-2'>
+							<div className='project-modal-dialog'>
+								<a className='close-button d-none d-md-block project-modal-dismiss' href='#/'>
+									<i className='material-icons'>close</i>
+								</a>
+								<div className='container-fluid'>
+									<div className='row'>
+										<div className='col-lg-11 mx-auto'>
+											<div className='project-modal-title'>
+												<h2 className=''>Mercy Medical Clinic</h2>
+												<h3 className='text-secondary my-3'>A Clinical DBMS</h3>
+												<hr className='doc-dark mb-5'></hr>
+												<img className='img-fluid mb-5' src={mproj} alt='Mercy'/>
+											</div>
+											<div className='project-modal-text'>
+												<p className='text mb-3'>
+													A clinical database management system in SQL
+													that allows CRUD operations to a remote server for employees
+													and patients through a responsive graphical user interface.
+												</p>
+												<p className='text mb-3'>
+													<b>Languages:</b> PHP, jQuery, AJAX, XML, SQL
+												</p>
+												<p className='text mb-3'>
+													<b>Frameworks:</b> Bootstrap 3, React.js
+												</p>
+												<p className='text mb-3'>
+													<b>Applications:</b> Visual Studio, Notepad++, SQL Developer, Oracle
+												</p>
+											</div>
+											<div className='project-modal-btn'>
+												<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className='project-modal mfp-hide' id='project-modal-3'>
+							<div className='project-modal-dialog'>
+								<a className='close-button d-none d-md-block project-modal-dismiss' href='#/'>
+									<i className='material-icons'>close</i>
+								</a>
+								<div className='container-fluid'>
+									<div className='row'>
+										<div className='col-lg-11 mx-auto'>
+											<div className='project-modal-title'>
+												<h2 className=''>CSUB C.S. Website</h2>
+												<h3 className='text-secondary my-3'>A Responsive Side Project</h3>
+												<hr className='device-dark mb-5'></hr>
+												<img className='img-fluid mb-5' src={cproj} alt='CSUB'/>
+											</div>
+											<div className='project-modal-text'>
+												<p className='text mb-3'>
+													This side Project was intended to redesign the Computer Science department’s main website,
+													focusing on more easily accessible and responsive features for desktops, tablets, and mobile devices.
+												</p>
+												<p className='text mb-3'>
+													<b>Languages:</b> HTML/CSS, JavaScript
+												</p>
+												<p className='text mb-3'>
+													<b>Frameworks:</b> Bootstrap 3
+												</p>
+												<p className='text mb-3'>
+													<b>Applications:</b> JetBrains CLion, Putty, Notepad++
+												</p>
+											</div>
+											<div className='project-modal-btn'>
+												<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</section>
-					{/*<!-- project modals -->*/}
-					<div className='project-modal mfp-hide' id='project-modal-1'>
-						<div className='project-modal-dialog'>
-							<a className='close-button d-none d-md-block project-modal-dismiss' href='#/'>
-								<i className='material-icons'>close</i>
-							</a>
-							<div className='container text-center'>
-								<div className='row'>
-									<div className='col-lg-8 mx-auto'>
-										<h2 className='text-center'>Attitunes</h2>
-										<h3 className='text-secondary my-4'>An Emotion-Based Music Player</h3>
-										<hr className='music-dark mb-5'></hr>
-										<img className='img-fluid mb-5' src={att} alt='Attitunes'/>
-										<p className='text mb-5'>
-											A desktop & mobile software application that plays music
-											based on a user’s facial emotions using Microsoft Cognitive Services API.
-											Implemented a KNN algorithm under a strict pair programming regiment
-											to weigh facial emotions with predetermined song values.
-										</p>
-										<p className='text mb-5'>
-											Languages Used: C#, Java, Microsoft Azure
-										</p>
-										<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close projectect</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className='project-modal mfp-hide' id='project-modal-2'>
-						<div className='project-modal-dialog'>
-							<a className='close-button d-none d-md-block project-modal-dismiss' href='#/'>
-								<i className='material-icons'>close</i>
-							</a>
-							<div className='container text-center'>
-								<div className='row'>
-									<div className='col-lg-8 mx-auto'>
-										<h2 className='text-center'>Mercy Medical Clinic</h2>
-										<h3 className='text-secondary my-4'>A Clinical DBMS</h3>
-										<hr className='doc-dark mb-5'></hr>
-										<img className='img-fluid mb-5' src={mmc} alt='Mercy'/>
-										<p className='text mb-5'>
-											A clinical database management system in SQL
-											that allows CRUD operations to a remote server for employees
-											and patients through a responsive graphical user interface.
-										</p>
-										<p className='text mb-5'>
-											Languages Used: PHP, JQuery, AJAX, XML
-										</p>
-										<p className='text mb-5'>
-											Frameworks: Bootstrap 3, React.js
-										</p>
-										<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close projectect</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className='project-modal mfp-hide' id='project-modal-3'>
-						<div className='project-modal-dialog'>
-							<a className='close-button d-none d-md-block project-modal-dismiss' href='#/'>
-								<i className='material-icons'>close</i>
-							</a>
-							<div className='container text-center'>
-								<div className='row'>
-									<div className='col-lg-8 mx-auto'>
-										<h2 className='text-center'>CSUB C.S. Website</h2>
-										<h3 className='text-secondary my-4'>A Responsive Side projectect</h3>
-										<hr className='device-dark mb-5'></hr>
-										<img className='img-fluid mb-5' src={csu} alt='CSUB'/>
-										<p className='text mb-5'>
-											This side projectect was intended to redesign the Computer Science department’s main website,
-											focusing on more easily accessible and responsive features for desktops, tablets, and mobile devices.
-										</p>
-										<p className='text mb-5'>
-											Languages Used: HTML/CSS, JavaScript
-										</p>
-										<p className='text mb-5'>
-											Frameworks: Bootstrap
-										</p>
-										<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close projectect</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</Cards>
 			</React.Fragment>
 		)
@@ -150,6 +184,13 @@ class projects extends Component {
 }
 export default projects;
 /*
+
+
+
+
+
+--------------------------------------------------------------------------------
+
 <Cards>
 	<div className='card-deck'>
 		<div className='card'>

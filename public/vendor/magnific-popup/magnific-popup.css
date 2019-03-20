@@ -297,6 +297,61 @@ img.mfp-img {
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
 
+/* ========================================================================== */
+/*							CSS For Project Modals							  */
+/* ========================================================================== */
+.project-modal {
+	padding:			0.1rem 0.75rem;
+	margin:				10px auto;
+	width:				auto;
+	max-width:			700px;
+	background-color:	#FFFFF0;
+}
+.project-modal .project-modal-dialog {
+	position: 	relative;
+	padding: 	1rem;
+	z-index: 	2;
+	margin: 	1rem calc(1rem - 10px);
+	min-height: calc(100vh - 6rem);
+	box-shadow: 0 0 3rem 2rem rgba(0,0,0,.5);
+}
+
+.project-modal .project-modal-dialog .close-button {
+	position: 	absolute;
+	top: 		2rem;
+	right: 		2rem;
+}
+.project-modal .project-modal-dialog .close-button i {
+	line-height: 38px;
+}
+.project-modal .project-modal-dialog .close-button h2 {
+	font-size: 1.75rem;
+}
+
+.project-modal .project-modal-dialog .project-modal-title {
+
+	text-align:	center;
+}
+
+.project-modal .project-modal-dialog .project-modal-text {
+
+	text-align:	left;
+}
+
+.project-modal .project-modal-dialog .project-modal-btn {
+
+	text-align:	center;
+}
+
+
+@media screen and (min-width: 768px) {
+	.project-modal .project-modal-dialog {
+		min-height:	90vh;
+		padding: 	2rem 1rem;
+		margin: 	1rem calc(2rem - 10px);
+	}
+}
+
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
        * Remove all paddings around the image on small screen

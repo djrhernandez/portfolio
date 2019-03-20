@@ -5,9 +5,6 @@ import Resume from './components/Resume/Resume'
 import SocialMedia from './components/SocialMedia/SocialMedia'
 import { Wrapper } from './themes/grid'
 import './App.css'
-import att from './containers/images/attitunes-logo.png'
-import mmc from './containers/images/MMC.png'
-import csu from './containers/images/csub.png'
 
 class App extends Component {
 	constructor() {

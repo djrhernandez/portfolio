@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { colors } from '../../themes/variables'
 import media from '../../themes/media'
 
 /* 1em = ~16px, 2em = ~32px */
