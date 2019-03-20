@@ -21,7 +21,7 @@
 					//Only prevent default if animation is actually gonna happen
 					ev.preventDefault();
 					$('html, body').animate({
-						scrollTop: target.offset().top - 97
+						scrollTop: target.offset().top - 67
 					}, 1000, "easeInOutExpo");
 					return false;
 				}
@@ -48,24 +48,28 @@
 	/* THIS WORKS */
 	$('body').scrollspy({
 		target: '#mainNav',
-		offset: 98
+		offset: 68
 	});
 
 	$(window).scroll(function() {
-	   if ($("#mainNav").offset().top > 100) {
-		   $("#mainNav").addClass("navbar-shrink");
-	   } else {
-		   $("#mainNav").removeClass("navbar-shrink");
+		if ($("#mainNav").offset().top > 100) {
+			$("#mainNav").removeClass("py-3");
+			$("#mainNav").addClass("navbar-shrink");
+		} else {
+			$("#mainNav").removeClass("navbar-shrink");
+			$("#mainNav").addClass("py-3");
 	   }
    });
 
 	//Modal popup$(function() {
 	/* THIS KINDA WORKS */
-	$(function() {
+	$(document).ready(function() {
 		$(".project-item").magnificPopup({
+			type: 'inline',
 			preloader: false,
 			focus: "#username",
-			modal: true
+			modal: true,
+			closeBtnInside: true
 		});
 
 		$(document).on("click", ".project-modal-dismiss", function(e) {
