@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/atom-logo.66455395.png"
   },
   {
-    "revision": "2c6c4194dfe344de0a5e",
+    "revision": "055354bdc3766a998f8f",
     "url": "/portfolio/static/css/main.ea8faca0.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/apple-logo.c12affa3.png"
   },
   {
-    "revision": "2c6c4194dfe344de0a5e",
-    "url": "/portfolio/static/js/main.2c6c4194.chunk.js"
+    "revision": "055354bdc3766a998f8f",
+    "url": "/portfolio/static/js/main.055354bd.chunk.js"
   },
   {
     "revision": "5aa61a8996cbe592e8b561b814138949",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/safeway-logo.f4937550.png"
   },
   {
-    "revision": "9af339e67a6b00e7da900d8aed5f05bf",
+    "revision": "353d222addd34908d50e00cc8f0fd9c1",
     "url": "/portfolio/index.html"
   }
 ];
