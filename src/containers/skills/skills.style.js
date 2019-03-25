@@ -3,7 +3,6 @@ import { colors } from '../../themes/variables'
 import media from "../../themes/media"
 
 export const Section = styled.div`
-
 	.skills {
 		color:				${({color}) => colors.ivory};
 		background-color:	${({color}) => colors.mud};
@@ -12,9 +11,9 @@ export const Section = styled.div`
 			margin:			0;
 			padding:		1rem;
 			font-family:	Raleway;
+			font-size:		2rem;
 			text-transform:	uppercase;
 			letter-spacing:	5px;
-			color:			${({color}) => colors.mud};
 		}
 
 		.col-25, .col-sm-25, .col-md-25, .col-lg-25, .col-xl-25 {
@@ -24,20 +23,6 @@ export const Section = styled.div`
 			padding-right:	5px;
 			padding-left:	5px;
 
-			${media.tablet`
-				-webkit-box-flex:	0;
-				-ms-flex:			0 0 20%;
-				flex:				0 0 20%;
-				max-width:			20%;
-			`};
-			${media.laptop`
-				-webkit-box-flex:	0;
-				-ms-flex:			0 0 20%;
-				flex:				0 0 20%;
-				max-width:			20%;
-				padding-right:		15px;
-				padding-left:		15px;
-			`};
 			${media.desktop`
 				-webkit-box-flex:	0;
 				-ms-flex:			0 0 20%;
@@ -54,27 +39,26 @@ export const Section = styled.div`
 		}
 
 		.card {
-			margin:				3rem auto!important;
-			border-radius: 		0.5rem;
-			color:				${({color}) => colors.mud};
-			background-color:	${({color}) => colors.ivory};
-			box-shadow:			0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+			margin:				2rem auto!important;
+			color:				${({color}) => colors.ivory};
+			background-color:	${({color}) => colors.mud};
+			border:				0;
 
 			.card-header {
-				padding:		1rem;
-				margin-bottom:	0;
-				border:			0;
-				text-align:		center;
-				background-color:	${({color}) => colors.ivory};
+
+				border:				0;
+				text-align:			center;
+				color:				${({color}) => colors.ivory}
+				background-color:	${({color}) => colors.mud};
 
 				&:after {
 					content:		"";
 					z-index:		-1;
 					bottom:			1px;
-					width:			75%;
+					width:			85%;
 					display:		block;
 					margin:			0 auto!important;
-					border-bottom: 	1px solid rgba(0, 0, 0, 0.25);
+					border-bottom: 	1px solid rgba(255, 255, 255, 0.25);
 				}
 			}
 
@@ -85,61 +69,66 @@ export const Section = styled.div`
 
 	.row {
 		/*border: 	1px solid cyan;*/
+		padding:	0 1rem;
+		margin:		auto 0;
 	}
 
 	.images {
 		padding-bottom:	1rem;
-		margin:		auto 0;
 
-		.image-item {
-			${media.laptop`
-				margin-bottom:	0.5rem!important;
+		.card {
+			margin:				0.75rem 0.5rem!important;
+			border-radius: 		1rem;
+			overflow:			hidden;
+			color:				${({color}) => colors.mud};
+			box-shadow:			0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+
+			${media.tablet`
+				margin:			0.75rem 2rem!important;
 			`};
 
-			.img-fluid {
-				padding:			1rem;
-				margin:				0 auto!important;
-				min-width:			32px;
-				max-height:			92px;
-				display:			table-cell;
+			${media.laptop`
+				margin:			0.75rem 0rem!important;
+			`};
+
+			.card-body {
+				padding:			2rem;
+				text-align:			center;
+				background-color:	${({color}) => colors.azure};
+				${media.laptop`
+					padding:	1rem;
+				`};
 			}
 
-			.image-shadow {
+			.card-footer {
+				font-size:		1rem;
+				font-weight:	700;
+				background-color:	${({color}) => colors.ivory};
 			}
 		}
 
-		.image-item:after {
-			content:	"";
-			z-index:	-1;
-			width:		45%;
-			display:	block;
-			margin:		-0.5rem auto!important;
-			bottom:		5px;
-			transform:	scale(0.7);
-			box-shadow:	0px 10px 15px 2px rgba(0, 0, 0, 0.4);
+		.image-item {
+			margin-bottom:	0.5rem;
+
+			.img-fluid {
+				display:	table-cell;
+				margin:		0 auto!important;
+				min-width:	64px;
+				min-height:	64px;
+				max-height:	128px;
+			}
 		}
 
 		.image-text {
-			margin-bottom:	1rem;
-			font-family:	Lato;
-			font-size:		0.75rem;
-			text-align:		center;
+			padding:		1rem;
 			letter-spacing:	1px;
+			font-size:		1.25rem;
+			font-family:	Montserrat;
+			text-align:		center;
 			color:			${({color}) => colors.mud};
 
-			${media.tablet`
-				margin-bottom:	0.50rem;
-				font-size:		1rem;
-			`};
-
-			${media.laptop`
-				margin-bottom:	0.75rem;
-				font-size:		1rem;
-			`};
-
 			${media.desktop`
-				margin-bottom:	1rem;
-				font-size:		1.2rem;
+				font-size:		1.3rem;
 			`};
 
 		}

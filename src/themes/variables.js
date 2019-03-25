@@ -1,13 +1,12 @@
 export const colors = {
 	/* BLACKS/GREYS */
 	jet:		'#111111',	/* Nice starting base color */
-	darkgrey:	'#A9A9A9',
 	grey:		'#BEBEBE',
 	silver:		'#C0C0C0', 	/* Base color for panels */
-	lightgrey:	'#D3D3D3',
 	platinum:	'#DCDCDC', 	/* For source code snippets? */
 	burgundy:	'#960200',
 
+	/* Red, Orange, Yellow, Green, Blue, Indigo, Violet */
 	white:		'#F8F3F2',
 	red:		'#CC0C0C',
 	orange:		'#FF8C00',
@@ -22,8 +21,9 @@ export const colors = {
 	tangerine:	'#CB462B',
 	yellow:		'#DBB43D',
 	mud:		'#303037',
-	/* Red, Orange, Yellow, Green, Blue, Indigo, Violet */
 
+
+	azure:		'#E8EEF3',
 	pewter:		'#8EA8C3',
 	toolbox:	'#6D72C3',
 	cerulean:	'#094074',

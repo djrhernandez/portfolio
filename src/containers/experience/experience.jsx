@@ -112,7 +112,6 @@ class Experience extends Component {
 }
 export default Experience;
 /*
-<Content>
 <Sector>
 <div className='position'>
 <img className='img-fluid' src={will} alt='Willamette'/>
@@ -140,5 +139,4 @@ answer problems.
 </li>
 </div>
 </Sector>
-</Content>
 */

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Others } from './interests.style.js'
-//import { Content } from '../../themes/grid'
 
 class Interests extends Component {
 	icons = 'material-icons';
@@ -42,7 +41,6 @@ class Interests extends Component {
 export default Interests;
 
 /*
-<Content>
 <Sector>
 <div>
 <li>Alumni of the Sigma Chi Fraternity</li>
@@ -50,5 +48,4 @@ export default Interests;
 <li>KIT Community and MESH Cowork</li>
 </div>
 </Sector>
-</Content>
 */

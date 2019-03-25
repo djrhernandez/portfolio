@@ -1,68 +1,70 @@
 import styled from "styled-components";
 import { colors } from '../../themes/variables'
-import media from '../../themes/media'
+//import media from '../../themes/media'
 
 export const Cards = styled.div`
 
-	.row {	}
-
-	.image {
-		padding:	1.5rem;
-		text-align:	center;
-
-		.mercy {
-			margin:	3.1rem auto!important;
-		}
-		.csub {
-			margin:	0.2rem auto!important;
-		}
+	.row {
+		padding:	0 1rem;
 	}
 
 	.project {
-		padding-top:		2rem!important;
 		color:				${({color}) => colors.mud};
 		background-color:	${({color}) => colors.ivory};
-		margin-bottom:		5px;
-		${media.tablet`
-			padding-bottom:	2rem;
-			margin-bottom:	-5px;
-		`};
 
-		.project-item {
-			position:			relative;
-			overflow:			hidden;
-			display:			block;
-			max-width:			25rem;
-			margin:				auto!important;
-			box-shadow:			0 5px 15px 0 rgba(0, 0, 0, 2);
-			background-color:	${({color}) => colors.dim};
-			border-radius:		0.75rem;
+		.card {
+			overflow:		hidden;
+			margin:			0 auto;
+			min-height:		325px;
+			max-height:		350px;
+			border-radius:	1rem;
+			box-shadow:		0 5px 15px 0 rgba(0, 0, 0, 1);
 
-			.project-item-caption {
-				position:			absolute;
-				display:			flex;
-				height:				100%;
-				width:				100%;
-				opacity:			0;
-				text-align:			center;
-				transition:			all ease .5s;
-				color:				${({color}) => colors.ivory};
-				background-color: 	${({color}) => colors.mud};
-				border-radius:		inherit;
-				overflow:			hidden;
+			.card-content {
+				display:			table;
+				position:			relative;
+				min-height:			275px;
+				color:				${({color}) => colors.mud};
+				background-color:	${({color}) => colors.azure};
 
-				&:hover {
-					opacity: 1;
+				.project-item {	}
+
+				.project-caption {
+					position:			absolute;
+					display:			flex;
+					height:				100%;
+					width:				100%;
+					opacity:			0;
+					transition:			all ease .5s;
+					color:				${({color}) => colors.ivory};
+					background-color: 	${({color}) => colors.mud};
+
+					&:hover {
+						opacity: 1;
+					}
+
+					.project-caption-content {
+						margin:		auto!important;
+						i {
+							font-size:	5rem;
+						}
+					}
 				}
+
+				.image {
+					display:		table-cell;
+					padding:		1.25rem;
+					text-align:		center;
+					vertical-align:	middle;
+				}
+
 			}
 
-			.project-item-caption-content {
-				margin:		auto!important;
-				font-size:	1.5rem;
-
-				i {
-					font-size:	5rem;
-				}
+			.card-footer {
+				padding:		1rem;
+				font-size:		1.3rem;
+				text-align:		center;
+				letter-spacing:	1px;
 			}
 		}
 	}

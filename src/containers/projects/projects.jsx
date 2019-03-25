@@ -17,45 +17,56 @@ class projects extends Component {
 							<h2 className='text-center'>projects</h2>
 							<hr className='code-dark'/>
 							<div className='row'>
-								<div className='col-md-6 col-lg-4'>
-									<a className='project-item' href='#project-modal-1'>
-										<div className='project-item-caption'>
-											<div className='project-item-caption-content'>
-												<i className='material-icons'>zoom_in</i>
+								<div className='col-8 col-md-8 col-lg-5 col-xl-4 mx-auto mb-5'>
+									<div className='card'>
+										<div className='card-content'>
+											<a className='project-item' href='#project-modal-1'>
+												<div className='project-caption'>
+													<div className='project-caption-content'>
+														<i className='material-icons'>zoom_in</i>
+													</div>
+												</div>
+											</a>
+											<div className='image'>
+												<img className='img-fluid' src={att} alt='Attitunes'/>
 											</div>
 										</div>
-										<div className='image'>
-											<img className='img-fluid' src={att} alt='Attitunes'/>
-										</div>
-									</a>
+										<div className='card-footer project-text'>Attitunes</div>
+									</div>
 								</div>
-								<div className='col-md-6 col-lg-4'>
-									<a className='project-item' href='#project-modal-2'>
-										<div className='project-item-caption'>
-											<div className='project-item-caption-content'>
-												<i className='material-icons'>zoom_in</i>
+								<div className='col-8 col-md-8 col-lg-5 col-xl-4 mx-auto mb-5'>
+									<div className='card'>
+										<div className='card-content'>
+											<a className='project-item' href='#project-modal-2'>
+												<div className='project-caption'>
+													<div className='project-caption-content'>
+														<i className='material-icons'>zoom_in</i>
+													</div>
+												</div>
+											</a>
+											<div className='image'>
+												<img className='img-fluid' src={mmc} alt='Mercy Clinic'/>
 											</div>
 										</div>
-										<div className='image'>
-											<div className='mercy'>
-											<img className='img-fluid' src={mmc} alt='Mercy Medical Clinic'/>
-											</div>
-										</div>
-									</a>
+										<div className='card-footer project-text'>Mercy Medical Clinic</div>
+									</div>
 								</div>
-								<div className='col-md-6 col-lg-4'>
-									<a className='project-item' href='#project-modal-3'>
-										<div className='project-item-caption'>
-											<div className='project-item-caption-content'>
-												<i className='material-icons'>zoom_in</i>
-											</div>
-										</div>
-										<div className='image'>
-											<div className='csub'>
+								<div className='col-8 col-md-8 col-lg-5 col-xl-4 mx-auto mb-5'>
+									<div className='card'>
+										<div className='card-content'>
+											<a className='project-item' href='#project-modal-3'>
+												<div className='project-caption'>
+													<div className='project-caption-content'>
+														<i className='material-icons'>zoom_in</i>
+													</div>
+												</div>
+											</a>
+											<div className='image'>
 												<img className='img-fluid' src={csu} alt='CSUBCS Website'/>
 											</div>
 										</div>
-									</a>
+										<div className='card-footer project-text'>CSUB C.S. Website</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -68,27 +79,27 @@ class projects extends Component {
 								</a>
 								<div className='container-fluid'>
 									<div className='row'>
-										<div className='col-lg-11 mx-auto'>
+										<div className='col-lg-10 mx-auto'>
 											<div className='project-modal-title'>
 												<h2 className=''>Attitunes</h2>
 												<h3 className='text-secondary my-3'>An Emotion-Based Music Player</h3>
 												<hr className='music-dark mb-5'></hr>
-												<img className='img-fluid mb-5' src={att} alt='Attitunes'/>
+												<img className='img-fluid mb-4' src={att} alt='Attitunes'/>
 											</div>
 											<div className='project-modal-text'>
-												<p className='text mb-3'>
+												<p className='text'>
 													A desktop & mobile software application that plays music
 													based on a user’s facial emotions using Microsoft Cognitive Services API.
 													Implemented a KNN algorithm under a strict pair programming regiment
 													to weigh facial emotions with predetermined song values.
 												</p>
-												<p className='text mb-3'>
+												<p className='text'>
 													<b>Languages:</b> C++/C#, Java
 												</p>
-												<p className='text mb-3'>
+												<p className='text'>
 													<b>Frameworks:</b> Microsoft Azure Cognitive Services, AForge
 												</p>
-												<p className='text mb-3'>
+												<p className='text'>
 													<b>Applications:</b> Android Studio, Visual Studio, Xamarin
 												</p>
 											</div>
@@ -175,7 +186,7 @@ class projects extends Component {
 								</div>
 							</div>
 						</div>
-
+						{/*<!-- END project modals -->*/}
 					</section>
 				</Cards>
 			</React.Fragment>

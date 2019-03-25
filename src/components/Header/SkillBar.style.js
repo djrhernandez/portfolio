@@ -31,7 +31,6 @@ export const Box = styled.div`
 export const Percentage = styled.div`
 	vertical-align:		middle;
     text-align: 		center;
-	color:				darkgrey;
 	background-color: 	${({color}) => color};
 	width: 				${({percentage}) => percentage}%;
 	height: 			30px;

@@ -3,7 +3,6 @@ import { colors } from '../../themes/variables'
 
 export const Courses = styled.div`
 	.coursework {
-		padding-top:		2rem!important;
 		color:				${({color}) => colors.mud};
 		background-color:	${({color}) => colors.ivory};
 	}

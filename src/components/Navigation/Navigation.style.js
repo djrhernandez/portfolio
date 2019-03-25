@@ -20,7 +20,6 @@ export const NavContainer = styled.div`
 
 		.navbar-nav {
 			margin-top:	1rem;
-			line-height: 2;
 			list-style-type:	none;
 			${media.laptop`
 				margin-top:	0;
@@ -28,29 +27,10 @@ export const NavContainer = styled.div`
 		}
 	}
 
-	/*#mainNav .navbar-nav li.nav-item {
-		a.nav-link {
-			height:	100%;
-			color:	;
-		}
-		.dropdown {
-			height:	100%;
-			button.dropdown-toggle {
-				border:				0!important;
-				margin:				inherit;
-				text-transform:		inherit;
-				letter-spacing:		inherit;
-				color:				inherit;
-				background-color:	inherit;
-
-				&:hover {
-					color: ;
-				}
-			}
-			button.dropdown-toggle.active {
-			}
-		}
-	}*/
+	#mainNav .container-fluid {
+		padding-left:	0.5rem;
+		padding-right:	0.5rem;
+	}
 
 	#mainNav .navbar-nav li.nav-item a.nav-link {
 		color:	${({color}) => colors.ivory};
@@ -99,9 +79,9 @@ export const NavContainer = styled.div`
 	#mainNav .navbar-toggler {
 		display:			flex;
 		background-color:	${({color}) => colors.tangerine};
-		border-radius:		.25rem!important;
 		${media.laptop`
 			display: none;
+
 		`};
 
 		.material-icons {

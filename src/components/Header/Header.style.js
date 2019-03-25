@@ -12,7 +12,7 @@ export const Container = styled.div`
 	header.masthead {
 		padding-top:	calc(4rem + 36px);
 		padding-bottom:	4rem;
-		letter-spacing:	0.1rem;
+		letter-spacing:	0.2rem;
 		text-align:		center;
 		${media.laptop`
 			padding-top:	calc(4rem + 72px);
@@ -21,8 +21,11 @@ export const Container = styled.div`
 		`};
 
 		.sub-header {
-			padding:	1.5rem;
+			padding:	.5rem;
 			text-align:	center;
+			${media.mobile`
+				padding:	1.5rem;
+			`};
 		}
 
 		h1 {

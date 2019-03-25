@@ -7,7 +7,7 @@ class Navigation extends Component {
 			<React.Fragment>
 				<NavContainer>
 					<div className='navbar navbar-expand-lg fixed-top py-3' id='mainNav'>
-						<div className='container'>
+						<div className='container-fluid'>
 							<a className='navbar-brand js-scroll-trigger' href='#page-top'>Home</a>
 							<button className='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle Navigation'>
 								<ul>Menu</ul>
@@ -37,18 +37,3 @@ class Navigation extends Component {
 	}
 }
 export default Navigation;
-/* Working on dropdown menu for resume divs:
-	* Need to change dropdown tab on when active or focused
-	* Need to change background color of dropdown menu to black
-	* Might need to show active tab in dropdown menu when scrolling between divs
-
-	<div className='dropdown'>
-		<button className='dropdown-toggle py-3 px-0 px-lg-3' id='dropdownResume' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Resume</button>
-		<div class='dropdown-menu js-scroll-trigger' aria-labelledby='dropdownResume'>
-			<a className='nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger' href='#education'>Education</a>
-			<a className='nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger' href='#coursework'>Coursework</a>
-			<a className='nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger' href='#work'>Work Experience</a>
-			<a className='nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger' href='#interests'>Interests</a>
-		</div>
-	</div>
-*/
