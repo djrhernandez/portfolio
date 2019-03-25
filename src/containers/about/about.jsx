@@ -21,9 +21,8 @@ class About extends Component {
 									<div className='col-text'>
 										<div className='text'>
 											<p>
-												Born in Delano, raised in Bakersfield, and traveled frequently to Los Angeles
-												to visit my father on the weekends. My brother and I often enjoyed visiting him
-												because our mother liked to dress us up in identical clothes. Even our haircuts were the same.
+												Born and raised in Bakersfield, my brother and I often enjoyed visiting our father in Los Angeles
+												because our mother liked to dress us up in identical clothes and even the same haircut style.
 											</p>
 										</div>
 									</div>
@@ -37,9 +36,9 @@ class About extends Component {
 									<div className='col-text'>
 										<div className='text'>
 											<p>
-												Moved to Salem in 2010 where I attended Willamette University to play collegiate football,
-												and graduated in 2014 with my first bachelors degree in Economics. I stayed up in Oregon
-												a year after to evaluate my future career path and enjoy the wonders of the Pacific Northwest.
+												Moved to Salem in 2010 where I attended played collegiate football, and graduated
+												with a bachelors degree in Economics at Willamette University. I stayed up in Oregon
+												for a year to evaluate my career path and enjoy the wonders of the Pacific Northwest.
 											</p>
 										</div>
 									</div>
@@ -52,9 +51,9 @@ class About extends Component {
 									<div className='col-text'>
 										<div className='text'>
 										<p>
-											I moved back to California a year later, and discovered a bigger passion for computer science.
-											So I attended CSUB, received my 2nd bachelors degree, and moved to Los Angeles to seek personal
-											growth and opportunity. I'm still actively looking for my career so something tells me that this should be exciting...
+											I moved back to California in 2015 and discovered a bigger passion for computer science.
+											So I earned my 2nd bachelors degree at CSUB and moved to the City of Angeles to seek personal
+											growth and opportunity. I'm still actively looking for my career and I'm excited for what the future holds.
 										</p>
 										</div>
 									</div>
