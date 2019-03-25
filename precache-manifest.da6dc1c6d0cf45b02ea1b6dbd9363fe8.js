@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5aa61a8996cbe592e8b561b814138949",
-    "url": "/portfolio/static/media/vim-logo.5aa61a89.png"
+    "revision": "664553954a9eb2e83b051333b726f306",
+    "url": "/portfolio/static/media/atom-logo.66455395.png"
   },
   {
-    "revision": "a341595822b2232f72c0",
-    "url": "/portfolio/static/css/main.917f8a8e.chunk.css"
+    "revision": "2c6c4194dfe344de0a5e",
+    "url": "/portfolio/static/css/main.ea8faca0.chunk.css"
   },
   {
-    "revision": "32e85cd4a67769c83355",
-    "url": "/portfolio/static/js/1.32e85cd4.chunk.js"
+    "revision": "63b10f078175515b0132",
+    "url": "/portfolio/static/js/1.63b10f07.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -28,6 +28,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/portrait.5b31db59.jpg"
   },
   {
+    "revision": "dd7f8564b80d7c3c0f98e1591067a51f",
+    "url": "/portfolio/static/media/la-silhouette.dd7f8564.png"
+  },
+  {
     "revision": "cc7c47b5e9f8387c9ee114972d05cc7d",
     "url": "/portfolio/static/media/bootstrap-logo.cc7c47b5.png"
   },
@@ -40,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/apple-logo.c12affa3.png"
   },
   {
-    "revision": "664553954a9eb2e83b051333b726f306",
-    "url": "/portfolio/static/media/atom-logo.66455395.png"
+    "revision": "2c6c4194dfe344de0a5e",
+    "url": "/portfolio/static/js/main.2c6c4194.chunk.js"
   },
   {
-    "revision": "a341595822b2232f72c0",
-    "url": "/portfolio/static/js/main.a3415958.chunk.js"
+    "revision": "5aa61a8996cbe592e8b561b814138949",
+    "url": "/portfolio/static/media/vim-logo.5aa61a89.png"
   },
   {
     "revision": "dd0ab2276cf29ff94e53c53692cf47ed",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/safeway-logo.f4937550.png"
   },
   {
-    "revision": "15f237493d1e57f6f9949d82885d4760",
+    "revision": "9af339e67a6b00e7da900d8aed5f05bf",
     "url": "/portfolio/index.html"
   }
 ];

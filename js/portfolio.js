@@ -21,7 +21,7 @@
 					//Only prevent default if animation is actually gonna happen
 					ev.preventDefault();
 					$('html, body').animate({
-						scrollTop: target.offset().top - 67
+						scrollTop: target.offset().top - 56
 					}, 1000, "easeInOutExpo");
 					return false;
 				}
@@ -48,7 +48,7 @@
 	/* THIS WORKS */
 	$('body').scrollspy({
 		target: '#mainNav',
-		offset: 68
+		offset: 57
 	});
 
 	$(window).scroll(function() {
