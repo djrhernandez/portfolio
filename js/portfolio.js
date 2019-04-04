@@ -45,7 +45,6 @@
 	});
 
 	//Uses scrollspy to add active classes to navbar items on scroll
-	/* THIS WORKS */
 	$('body').scrollspy({
 		target: '#mainNav',
 		offset: 57
@@ -61,15 +60,18 @@
 	   }
    });
 
-	//Modal popup$(function() {
-	/* THIS KINDA WORKS */
+	//Modals for each project
 	$(document).ready(function() {
-		$(".project-item").magnificPopup({
-			type: 'inline',
-			preloader: false,
-			focus: "#username",
-			modal: true,
-			closeBtnInside: true
+		$("#inline-popups").magnificPopup({
+			delegate: 'a',
+			removalDelay: 500, //Delay removal by X to allow exit animation
+			showCloseBtn: false,
+			callbacks: {
+				beforeOpen: function() {
+					this.st.mainClass = this.st.el.attr('data-effect');
+				}
+			},
+			midClick: true
 		});
 
 		$(document).on("click", ".project-modal-dismiss", function(e) {
@@ -79,7 +81,6 @@
 	});
 
 	//Floating label headings for the contact form
-	/* DONT KNOW YET */
 	$(function() {
 		$("body").on("input propertychange", ".floating-label-form-group", function(e) {
 			t(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());

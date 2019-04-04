@@ -301,40 +301,82 @@ img.mfp-img {
 /*							CSS For Project Modals							  */
 /* ========================================================================== */
 .project-modal {
-	padding:			1rem;
+	padding:			0.5rem;
 	margin:				0 auto;
-	max-width:			700px;
+	max-width:			800px;
 	background-color:	#FFFFF0;
 }
-.project-modal .project-modal-dialog {
+
+.project-modal-dialog {
 	position: 	relative;
 	padding: 	0.75rem;
 	z-index: 	2;
-	/*margin: 	1rem calc(1rem - 10px);*/
 	min-height: calc(100vh - 6rem);
 	box-shadow: 0 0 3rem 2rem rgba(0,0,0,.5);
 }
 
-.project-modal .project-modal-dialog .close-button {
+.project-modal-dialog .close-button {
 	position: 	absolute;
-	top: 		2rem;
+	top: 		1rem;
 	right: 		2rem;
 }
-.project-modal .project-modal-dialog .close-button i {
+
+.project-modal-dialog .close-button i {
 	line-height: 35px;
 }
-.project-modal .project-modal-dialog .close-button h2 {
+
+.project-modal-dialog .close-button h2 {
 	font-size: 1.75rem;
 }
 
-.project-modal .project-modal-dialog .project-modal-title {
-	text-align:	center;
+.project-modal-dialog .close-button h3 {
+	font-size: 1.50rem;
+}
+
+.project-modal-dialog .project-modal-title {
+	text-align:		center;
+	margin-bottom:	1rem;
+}
+
+.project-modal-gallery {
+
+}
+
+.project-modal-gallery .carousel {
+	margin: 	1rem auto;
+	padding: 	1rem;
+	min-height: 32rem;
+	max-height: 32rem;
+	box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.325);
+	background-color: #303037;
+}
+
+.project-modal-gallery .carousel .carousel-indicators {
+	margin-bottom:	0.25rem;
+}
+
+.project-modal-gallery .carousel .carousel-inner {
+	padding:	1rem;
+	margin: 	auto;
+}
+
+.project-modal-gallery .carousel > .carousel-inner > .carousel-item > img {
+	margin:		auto;
+}
+
+.project-modal-gallery .carousel-control-prev, .carousel-control-next {
+	width:		5%;
+}
+
+.project-modal .project-modal-dialog .project-modal-text {
+	margin: 	2rem auto;
+	padding:	0 1rem;
 }
 
 .project-modal .project-modal-dialog .project-modal-text .text {
-	text-align:	left;
-	font-size: 1.1rem;
-	margin-bottom: 1rem!important;
+	margin-bottom: 	1rem!important;
+	text-align:		left;
+	font-size: 		1.1rem;
 }
 
 .project-modal .project-modal-dialog .project-modal-btn {
@@ -344,9 +386,38 @@ img.mfp-img {
 @media screen and (min-width: 768px) {
 	.project-modal .project-modal-dialog {
 		min-height:	90vh;
-		padding: 	2rem 1rem;
-		margin: 	1rem calc(2rem - 10px);
+		padding: 	1rem;
+		margin: 	0.75rem;
 	}
+}
+
+/* Animations for Modal */
+ .mfp-move-horizontal {
+	/* Animate In */
+	/* Animate Out */
+}
+ .mfp-move-horizontal .mfp-animated {
+	 opacity: 0;
+	 transition: all 0.3s;
+	 transform: translateX(-50px);
+}
+ .mfp-move-horizontal.mfp-bg {
+	 opacity: 0;
+	 transition: all 0.3s;
+}
+ .mfp-move-horizontal.mfp-ready .mfp-animated {
+	 opacity: 1;
+	 transform: translateX(0);
+}
+ .mfp-move-horizontal.mfp-ready.mfp-bg {
+	 opacity: 0.8;
+}
+ .mfp-move-horizontal.mfp-removing .mfp-animated {
+	 transform: translateX(50px);
+	 opacity: 0;
+}
+ .mfp-move-horizontal.mfp-removing.mfp-bg {
+	 opacity: 0;
 }
 
 /* ========================================================================== */

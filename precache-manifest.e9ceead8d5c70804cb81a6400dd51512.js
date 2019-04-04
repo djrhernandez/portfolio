@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "664553954a9eb2e83b051333b726f306",
-    "url": "/portfolio/static/media/atom-logo.66455395.png"
+    "revision": "0eef46736dd86eeb586f91dc7217c9db",
+    "url": "/portfolio/static/media/attitunes-logo.0eef4673.png"
   },
   {
-    "revision": "055354bdc3766a998f8f",
-    "url": "/portfolio/static/css/main.ea8faca0.chunk.css"
+    "revision": "958ea81b8615d1e25e63",
+    "url": "/portfolio/static/css/main.9dc21c51.chunk.css"
   },
   {
-    "revision": "63b10f078175515b0132",
-    "url": "/portfolio/static/js/1.63b10f07.chunk.js"
+    "revision": "b161c739255effcdf0f2",
+    "url": "/portfolio/static/js/1.b161c739.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "31c69a3f6d5b25ec9bbefc9385390eb9",
     "url": "/portfolio/static/media/willamette-logo.31c69a3f.png"
-  },
-  {
-    "revision": "0eef46736dd86eeb586f91dc7217c9db",
-    "url": "/portfolio/static/media/attitunes-logo.0eef4673.png"
   },
   {
     "revision": "5b31db597e6ea56080cf83b6fc0ee527",
@@ -44,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/apple-logo.c12affa3.png"
   },
   {
-    "revision": "055354bdc3766a998f8f",
-    "url": "/portfolio/static/js/main.055354bd.chunk.js"
+    "revision": "664553954a9eb2e83b051333b726f306",
+    "url": "/portfolio/static/media/atom-logo.66455395.png"
   },
   {
     "revision": "5aa61a8996cbe592e8b561b814138949",
@@ -60,12 +56,36 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/xamarin-logo.d3790ec1.png"
   },
   {
+    "revision": "958ea81b8615d1e25e63",
+    "url": "/portfolio/static/js/main.958ea81b.chunk.js"
+  },
+  {
     "revision": "7352dc4560a53d6482b7ed65afd9fd38",
     "url": "/portfolio/static/media/MMC.7352dc45.png"
   },
   {
     "revision": "a9e041b60fcf2ca75c7213b0e748558f",
     "url": "/portfolio/static/media/csub.a9e041b6.png"
+  },
+  {
+    "revision": "860f8d8fa5809e828071289b4c0a7c85",
+    "url": "/portfolio/static/media/att-desktop-demo.860f8d8f.png"
+  },
+  {
+    "revision": "f08748dda7a06f3ae14b262695253ab1",
+    "url": "/portfolio/static/media/att-desktop-results.f08748dd.png"
+  },
+  {
+    "revision": "6db530f3f2de18255fa8668ab8cd59d1",
+    "url": "/portfolio/static/media/att-desktop-demo2.6db530f3.png"
+  },
+  {
+    "revision": "dd1a96257b4d9a66b455f52da55ebcc7",
+    "url": "/portfolio/static/media/att-mobile-demo.dd1a9625.png"
+  },
+  {
+    "revision": "822a77629171b75029eaa4be96ba3877",
+    "url": "/portfolio/static/media/att-mobile-demo2.822a7762.png"
   },
   {
     "revision": "e193db8ee014c7858ad50ae4d7f2c6ad",
@@ -88,7 +108,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/safeway-logo.f4937550.png"
   },
   {
-    "revision": "353d222addd34908d50e00cc8f0fd9c1",
+    "revision": "824d2a6f14bfa0321282ed5dd0e11a49",
     "url": "/portfolio/index.html"
   }
 ];
