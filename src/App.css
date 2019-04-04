@@ -1,7 +1,13 @@
+html {
+	height:			100%;
+	min-width:		450px;
+}
+
 body {
 	font-family: 	Lato;
 	height:			100%;
 	width:			100%;
+	word-break: 	break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -74,11 +80,11 @@ hr[class*="device"]::after 	{ content: '\e1b1'; }
 }
 
 .App {
-	background: 		linear-gradient(-45deg, #F8F3F2, #B7B0A8, #CB462B, #DBB43D, #303037);
+	background: 		linear-gradient(115deg, #960200, #CB462B, #DBB43D, #094074);
 	background-size: 	400% 400%;
-	-webkit-animation:	Gradient 15s ease infinite;
-	-moz-animation:		Gradient 15s ease infinite;
-	animation:			Gradient 15s ease infinite;
+	-webkit-animation:	Gradient 30s ease infinite;
+	-moz-animation:		Gradient 30s ease infinite;
+	animation:			Gradient 30s ease infinite;
 }
 
 .App-logo {

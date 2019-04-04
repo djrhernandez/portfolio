@@ -137,3 +137,22 @@ export const Sector = styled.div`
 		height:		100%;
 	}
 `;
+/*
+.place {
+	float: left;
+	margin-right:	1rem;
+	margin-bottom:	0;
+	font-size:		1rem;
+	text-indent:	0.15rem;
+}
+.date {
+	font-size:		1rem;
+	.material-icons {
+		margin-top:		0;
+		font-size:		1rem;
+		float: 			left;
+		padding-top:
+		padding-right:	0.50rem;
+	}
+}
+*/

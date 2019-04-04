@@ -17,6 +17,7 @@ export const Cards = styled.div`
 			margin:			0 auto;
 			min-height:		325px;
 			max-height:		350px;
+			border:			0;
 			border-radius:	1rem;
 			box-shadow:		0 5px 15px 0 rgba(0, 0, 0, 1);
 
@@ -25,9 +26,7 @@ export const Cards = styled.div`
 				position:			relative;
 				min-height:			275px;
 				color:				${({color}) => colors.mud};
-				background-color:	${({color}) => colors.azure};
-
-				.project-item {	}
+				background-color:	${({color}) => colors.silver};
 
 				.project-caption {
 					position:			absolute;
@@ -56,8 +55,8 @@ export const Cards = styled.div`
 					padding:		1.25rem;
 					text-align:		center;
 					vertical-align:	middle;
+					box-shadow:		0px 0px 10px 5px rgba(0, 0, 0, 0.125) inset;
 				}
-
 			}
 
 			.card-footer {

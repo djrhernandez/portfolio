@@ -10,7 +10,7 @@ export const Section = styled.div`
 		font-size:		2.25rem;
 		line-height:	2rem;
 		letter-spacing:	.75rem;
-		${media.laptop`
+		${media.large`
 			font-size:	3rem;
 			line-height: 2.5rem
 		`};

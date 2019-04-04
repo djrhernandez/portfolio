@@ -1,60 +1,82 @@
 import styled from "styled-components"
 import { colors } from '../../themes/variables'
+import media from "../../themes/media"
 
 export const Courses = styled.div`
 	.coursework {
 		color:				${({color}) => colors.mud};
 		background-color:	${({color}) => colors.ivory};
-	}
 
-	.card {
-		color:				${({color}) => colors.mud};
-		background-color:	${({color}) => colors.pewter};
-		box-shadow:			0 5px 10px 0 rgba(0, 0, 0, 2),
-							0 0 15px 5px rgba(0, 0, 0, 0.15) inset;
+		.row {
+			margin:		0 1rem;
 
-		.card-body {
-			padding:		1.25rem 1rem!important;
-
+			${media.small`
+				margin: 0 3rem;
+			`}
+			${media.large`
+				margin: 0 2rem;
+			`}
 		}
-	}
-`;
 
-export const Tabs = styled.div`
+		.card {
+			border-radius:		0.25rem;
+			box-shadow:			0px 0px 15px 5px rgba(0, 0, 0, 0.125) inset;
+			
 
-	.panel {
-		border:				1px solid black;
-		color:	${({color}) => colors.ivory};
-		background-color:	${({color}) => colors.mud};
-		border-radius:		5px;
-		overflow:			hidden;
-	}
+			.card-header {
+				font-weight:	700;
+				font-family:	Montserrat;
+				letter-spacing:	1px;
+				color:			${({color}) => colors.mud};
 
-	.panel-group {
-		margin-bottom: 	10px;
-	}
+				${media.medium`
+					font-size:	1.2rem;
+				`}
 
-	.panel-title {
-		padding:		10px;
-		font-size:		1.15em;
-		letter-spacing:	3px;
-	}
+				${media.large`
+					font-size:	1.25rem;
+				`}
 
-	.panel-body {
-		padding:			10px;
-		color:				${({color}) => colors.mud};
-		background-color:	${({color}) => colors.ivory};
-	}
+				${media.desktop`
+					font-size:	1.4rem;
+				`}
 
-	li {
-		list-style-type:	none;
-	}
+				a {
+					color:	${({color}) => colors.mud};
+				}
 
-	a {
-		color:	${({color}) => colors.ivory};
+				.material-icons {
+					float: 			right;
+					margin-left:	0.75rem;
+					margin-top:		0.2rem;
+					transition:		0.3s transform ease-in-out;
+				}
 
-		&:hover {
-			color:	${({color}) => colors.tangerine};
+				.collapsed .material-icons {
+					transform:		rotate(-90deg);
+				}
+			}
+
+			.card-body {
+				padding:	1rem;
+
+				${media.large`
+					font-size:	1.1rem;
+				`}
+
+				${media.desktop`
+					font-size:	1.3rem;
+				`}
+
+				ul {
+					margin: 				auto;
+					padding-inline-start:	1.5rem;
+
+					li {
+						margin-bottom:	0.75rem;
+					}
+				}
+			}
 		}
 	}
 `;

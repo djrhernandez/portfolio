@@ -19,7 +19,7 @@ export const Objective = styled.div`
 			width:		100%;
 			outline:	1px solid rgba(128, 128, 128, 0.125);
 			box-shadow:	0px 3px 10px 2px rgba(0, 0, 0, 0.125);
-			${media.mobile`
+			${media.small`
 				width:	80%;
 			`};
 		}
@@ -61,7 +61,7 @@ export const Objective = styled.div`
 				font-family:	Raleway;
 				padding:	1rem 0;
 
-				${media.laptop`
+				${media.large`
 					font-size:	1.2rem;
 				`};
 				${media.desktop`

@@ -16,10 +16,10 @@ class Experience extends Component {
 							<h2 className='text-center'>Work Experience</h2>
 							<hr className='work-light'/>
 							<div className='row'>
-								<div className='image col-2'>
+								<div className='image col-3'>
 									<img className='img-fluid' src={bb} alt='Best Buy'/>
 								</div>
-								<div className='text col-7 px-auto py-3'>
+								<div className='text col-6 px-auto py-3'>
 									<div>
 										<a href="https://www.bestbuy.com">Best Buy, Inc.</a>
 										<li className='location'>Bakersfield, CA</li>
@@ -43,10 +43,10 @@ class Experience extends Component {
 							</div>
 
 							<div className='row'>
-								<div className='image col-2'>
+								<div className='image col-3'>
 									<img className='img-fluid' src={sway} alt='Safeway'/>
 								</div>
-								<div className='text col-7 px-auto py-3'>
+								<div className='text col-6 px-auto py-3'>
 									<div>
 										<a href="https://www.safeway.com">Safeway, Inc.</a>
 										<li className='location'>Salem, OR</li>
@@ -72,10 +72,10 @@ class Experience extends Component {
 							</div>
 
 							<div className='row'>
-								<div className='image col-2'>
+								<div className='image col-3'>
 									<img className='img-fluid' src={will} alt='Willamette'/>
 								</div>
-								<div className='text col-7 px-auto py-3'>
+								<div className='text col-6 px-auto py-3'>
 									<div>
 										<a href="https://www.safeway.com">Willamete University</a>
 										<li className='location'>Salem, OR</li>
@@ -139,4 +139,36 @@ answer problems.
 </li>
 </div>
 </Sector>
+
+<div className='work-item row'>
+	<div className='col-sm-3 m-auto'>
+		<div className='image'>
+			<img className='img-fluid' src={bb} alt='Best Buy'/>
+		</div>
+	</div>
+	<div className='col-sm-9 m-auto'>
+		<div className='text'>
+			<a href="https://www.bestbuy.com">Best Buy, Inc.</a>
+			<li className='position'>Mobile Sales Consultant</li>
+			<p className='place'>Bakersfield, CA</p>
+			<li className='date'>
+				<i className={this.icons}>date_range</i>
+				<li className='range'>July 2017 - April 2018</li>
+			</li>
+		</div>
+		<p className='subtext'>
+			<li>
+				Improved mobile sales revenue and store profits
+				by 5% each fiscal quarter by providing exceptional
+				expertise about the latest technology,
+				pricing plans, and service features within the
+				telecommunication industry, while cultivating a
+				more personalized experience for each customer.
+			</li>
+		</p>
+	</div>
+	<div className='date col-3'>
+
+	</div>
+</div>
 */

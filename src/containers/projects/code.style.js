@@ -7,6 +7,6 @@ export const Snippet = styled.div`
 
 	padding:			10px;
 	border:				1px solid black;
-	color: 				${({color}) => colors.grey};
+	color: 				${({color}) => colors.dim};
 	background-color:	${({color}) => colors.ivory};
 `;

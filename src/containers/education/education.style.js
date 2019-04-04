@@ -18,7 +18,7 @@ export const Sector = styled.div`
 				display:	table;
 				text-align:	center;
 				margin:		0 auto;
-				${media.mobile`
+				${media.small`
 					padding: 0.5rem;
 				`}
 
@@ -32,7 +32,7 @@ export const Sector = styled.div`
 				margin:		1rem auto;
 				font-size:	1.75rem;
 
-				${media.mobile`
+				${media.small`
 					margin:	auto 0;
 				`}
 
@@ -56,11 +56,11 @@ export const Sector = styled.div`
 					cursor: 			pointer;
 					text-decoration: 	none;
 
-					${media.tablet`
+					${media.medium`
 						font-size:		2.25rem;
 						letter-spacing:	1px;
 					`}
-					${media.laptop`
+					${media.large`
 						font-size:		2.5rem;
 					`}
 					${media.desktop`

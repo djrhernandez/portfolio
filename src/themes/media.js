@@ -1,36 +1,47 @@
 import { css } from "styled-components"
 
-const media = { mobile, tablet, laptop, desktop };
+const media = { small, medium, large, desktop };
 
 const sizes = {
-	mobile:		576,
-	tablet:		768,
-	laptop:		992,
+	xsmall:		575,
+	small:		576,
+	medium:		768,
+	large:		992,
 	desktop:	1200
 }
 
-/* Landscape Phones above 576px */
-function mobile(...args) {
+/* Any device w/screen smaller than 576px
+function xsmall(...args) {
 	return css`
-		@media (min-width: ${sizes.mobile}px) {
+		@media (max-width: ${sizes.xsmall}px) {
+			${css(...args)}
+		}
+	`;
+}
+*/
+
+/* Landscape Phones above 576px */
+function small(...args) {
+	return css`
+		@media (min-width: ${sizes.small}px) {
 			${css(...args)}
 		}
 	`;
 }
 
 /* Tablets above 768px */
-function tablet(...args) {
+function medium(...args) {
 	return css`
-		@media (min-width: ${sizes.tablet}px) {
+		@media (min-width: ${sizes.medium}px) {
 			${css(...args)}
 		}
 	`;
 }
 
 /* Laptops above 992px */
-function laptop(...args) {
+function large(...args) {
 	return css`
-		@media (min-width: ${sizes.laptop}px) {
+		@media (min-width: ${sizes.large}px) {
 			${css(...args)}
 		}
 	`;

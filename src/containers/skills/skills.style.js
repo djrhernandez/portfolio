@@ -77,25 +77,22 @@ export const Section = styled.div`
 		padding-bottom:	1rem;
 
 		.card {
-			margin:				0.75rem 0.5rem!important;
+			margin:				1rem auto!important;
 			border-radius: 		1rem;
+			max-width:			200px;
 			overflow:			hidden;
 			color:				${({color}) => colors.mud};
 			box-shadow:			0px 5px 10px 0px rgba(0, 0, 0, 0.75);
 
-			${media.tablet`
-				margin:			0.75rem 2rem!important;
-			`};
-
-			${media.laptop`
-				margin:			0.75rem 0rem!important;
+			${media.large`
+				max-width:		225px;
 			`};
 
 			.card-body {
 				padding:			2rem;
 				text-align:			center;
 				background-color:	${({color}) => colors.azure};
-				${media.laptop`
+				${media.large`
 					padding:	1rem;
 				`};
 			}
@@ -116,6 +113,9 @@ export const Section = styled.div`
 				min-width:	64px;
 				min-height:	64px;
 				max-height:	128px;
+				max-width:	96px;
+				${media.small`
+				`};
 			}
 		}
 

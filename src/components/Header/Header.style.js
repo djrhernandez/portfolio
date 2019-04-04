@@ -7,14 +7,14 @@ export const Container = styled.div`
 	text-align:			center!important;
 	color:				${({color}) => colors.ivory};
 	background-color: 	${({color}) => colors.mud};
-	box-shadow:			0 4px 20px 0 rgba(0, 0, 0, 2);
+	box-shadow:			0 4px 20px 0 rgba(0, 0, 0, 1);
 
 	header.masthead {
 		padding-top:	calc(4rem + 36px);
 		padding-bottom:	4rem;
 		letter-spacing:	0.2rem;
 		text-align:		center;
-		${media.laptop`
+		${media.large`
 			padding-top:	calc(4rem + 72px);
 			padding-bottom:	4rem;
 			letter-spacing:	0.5rem;
@@ -23,7 +23,7 @@ export const Container = styled.div`
 		.sub-header {
 			padding:	.5rem;
 			text-align:	center;
-			${media.mobile`
+			${media.small`
 				padding:	1.5rem;
 			`};
 		}
@@ -32,7 +32,7 @@ export const Container = styled.div`
 			font-size:		2.25rem;
 			line-height:	2rem;
 			text-transform:	uppercase!important;
-			${media.laptop`
+			${media.large`
 				font-size:		3.5rem;
 				line-height:	3rem;
 			`}
@@ -41,7 +41,7 @@ export const Container = styled.div`
 		h2 {
 			font-size:		1.25rem;
 			font-family:	Didact Gothic;
-			${media.laptop`
+			${media.large`
 				font-size:		2rem;
 			`}
 		}

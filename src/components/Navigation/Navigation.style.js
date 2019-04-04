@@ -9,7 +9,7 @@ export const NavContainer = styled.div`
 		font-size:			1rem;
 		letter-spacing:		0.2rem;
 		text-transform:		uppercase!important;
-		${media.laptop`
+		${media.large`
 			font-size:		1.2rem;
 			transition:		padding-top .3s, padding-bottom .3s;
 		`};
@@ -21,7 +21,7 @@ export const NavContainer = styled.div`
 		.navbar-nav {
 			margin-top:	1rem;
 			list-style-type:	none;
-			${media.laptop`
+			${media.large`
 				margin-top:	0;
 			`};
 		}
@@ -49,7 +49,7 @@ export const NavContainer = styled.div`
 	}
 
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-		${media.laptop`
+		${media.large`
 			color:		${({color}) => colors.ivory};
 			background:	${({color}) => colors.tangerine};
 		`};
@@ -58,20 +58,20 @@ export const NavContainer = styled.div`
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-		${media.laptop`
+		${media.large`
 			color:		${({color}) => colors.ivory};
 			background:	${({color}) => colors.tangerine};
 		`};
 	}
 
 	.navbar-shrink {
-		${media.laptop`
+		${media.large`
 			padding-top:	0.25rem;
 			padding-bottom:	0.25rem;
 		`};
 	}
 	.navbar-shrink .navbar-brand {
-		${media.laptop`
+		${media.large`
 
 		`};
 	}
@@ -79,7 +79,7 @@ export const NavContainer = styled.div`
 	#mainNav .navbar-toggler {
 		display:			flex;
 		background-color:	${({color}) => colors.tangerine};
-		${media.laptop`
+		${media.large`
 			display: none;
 
 		`};

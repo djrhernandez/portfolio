@@ -5,7 +5,7 @@ import media from "../themes/media";
 /* Used in App.js */
 export const Wrapper = styled.div`
 	padding:	0;
-	${media.laptop`
+	${media.large`
 		padding:	0 8rem;
 	`};
 `;

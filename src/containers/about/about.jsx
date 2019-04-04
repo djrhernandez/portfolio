@@ -52,7 +52,7 @@ class About extends Component {
 										<div className='text'>
 										<p>
 											I moved back to California in 2015 and discovered a bigger passion for computer science.
-											So I earned my 2nd bachelors degree at CSUB and moved to the City of Angeles to seek personal
+											So I earned my 2nd bachelors degree at CSUB and moved to the City of Angels to seek personal
 											growth and opportunity. I'm still actively looking for my career and I'm excited for what the future holds.
 										</p>
 										</div>
