@@ -30,6 +30,28 @@
 
 	<!-- Magnific Popup Core CSS -->
 	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+
+	<script>
+		window.onresize = displaySize;
+		window.onload = displaySize;
+
+		function displaySize() {
+			w = window.innerWidth;
+			s = "";
+			if (w >= 1200){
+				s = "XLarge";
+			} else if (w < 1200 && w >= 992) {
+				s = "Large";
+			} else if (w < 992 && w >= 768) {
+				s = "Medium";
+			} else if (w < 768 && w >= 576) {
+				s = "Small";
+			} else {
+				s = "XSmall";
+			}
+			document.getElementById("size").innerHTML = s;
+		}
+	</script>
 </head>
 
 <body id='page-top'>

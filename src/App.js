@@ -11,7 +11,7 @@ class App extends Component {
 		super();
 
 		var today = new Date();
-		var date = `${today.getMonth()+1}/${today.getDate()}/${today.getFullYear()}}`;
+		var date = `${today.getMonth()+1}/${today.getDate()}/${today.getFullYear()}`;
 
 		this.state = {
 			date: date
@@ -27,10 +27,12 @@ class App extends Component {
 						<Header/>
 						<Resume/>
 						<SocialMedia/>
+						{/*<div className='scroll-to-top d-lg-none position-fixed'>*/}
 						<div className='scroll-to-top d-lg-none position-fixed'>
 							<a className='js-scroll-trigger d-block' href='#page-top'>
 								<i className='material-icons'>expand_less</i>
 							</a>
+							{/*<p id="size" className='text-center'></p>*/}
 						</div>
 					</Wrapper>
             	</div>

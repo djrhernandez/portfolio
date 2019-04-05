@@ -82,66 +82,68 @@ class projects extends Component {
 									<i className='material-icons'>close</i>
 								</a>
 								<div className='container-fluid'>
-									<div className='project-modal-title'>
-										<h2 className=''>Attitunes</h2>
-										<h3 className='text-secondary my-2'>An Emotion-Based Music Player</h3>
-										<hr className='music-dark mb-5'></hr>
-									</div>
-									<div className='project-modal-gallery'>
-										<div id='carousel-list' className='carousel slide ml-auto mr-auto' data-ride='carousel' data-interval='false'>
-											<ol className='carousel-indicators'>
-												<li data-target='#carousel-list' data-slide-to='0' className='active'></li>
-												<li data-target='#carousel-list' data-slide-to='1' className='active'></li>
-												<li data-target='#carousel-list' data-slide-to='2' className='active'></li>
-												<li data-target='#carousel-list' data-slide-to='3' className='active'></li>
-												<li data-target='#carousel-list' data-slide-to='4' className='active'></li>
-											</ol>
-											<div className='carousel-inner'>
-												<div className='carousel-item active'>
-													<img className='img-fluid d-block' src={aproj1} alt='Attitunes Overview'/>
-												</div>
-												<div className='carousel-item'>
-													<img className='img-fluid d-block' src={aproj2} alt='Attitunes Demo'/>
-												</div>
-												<div className='carousel-item'>
-													<img className='img-fluid d-block' src={aproj3} alt='Attitunes Results'/>
-												</div>
-												<div className='carousel-item'>
-													<img className='img-fluid d-block' src={aproj4} alt='Attitunes Mobile Demo 1'/>
-												</div>
-												<div className='carousel-item'>
-													<img className='img-fluid d-block' src={aproj5} alt='Attitunes Mobile Demo 2'/>
-												</div>
-											</div>
-											<a className='carousel-control-prev' href='#carousel-list' role='button' data-slide='prev'>
-												<span className='carousel-control-prev-icon' aria-hidden='true'></span>
-												<span className='sr-only'>Previous</span>
-											</a>
-											<a className='carousel-control-next' href='#carousel-list' role='button' data-slide='next'>
-												<span className='carousel-control-next-icon' aria-hidden='true'></span>
-												<span className='sr-only'>Next</span>
-											</a>
+									<div className='col-10 col-lg-11 mx-auto'>
+										<div className='project-modal-title'>
+											<h2 className=''>Attitunes</h2>
+											<h3 className='text-secondary my-2'>An Emotion-Based Music Player</h3>
+											<hr className='music-dark mb-5'></hr>
 										</div>
-									</div>
-									<div className='project-modal-text'>
-										<p className='text'>
-											A desktop & mobile software application that plays music
-											based on a user’s facial emotions using Microsoft Cognitive Services API.
-											Implemented a KNN algorithm under a strict pair programming regiment
-											to weigh facial emotions with predetermined song values.
-										</p>
-										<p className='text'>
-											<b>Languages:</b> C++/C#, Java
-										</p>
-										<p className='text'>
-											<b>Frameworks:</b> Microsoft Azure Cognitive Services, AForge
-										</p>
-										<p className='text'>
-											<b>Applications:</b> Android Studio, Visual Studio, Xamarin
-										</p>
-									</div>
-									<div className='project-modal-btn'>
-										<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
+										<div className='project-modal-gallery'>
+											<div id='carousel-list' className='carousel slide ml-auto mr-auto' data-ride='carousel' data-interval='false'>
+												<ol className='carousel-indicators'>
+													<li data-target='#carousel-list' data-slide-to='0' className='active'></li>
+													<li data-target='#carousel-list' data-slide-to='1' className='active'></li>
+													<li data-target='#carousel-list' data-slide-to='2' className='active'></li>
+													<li data-target='#carousel-list' data-slide-to='3' className='active'></li>
+													<li data-target='#carousel-list' data-slide-to='4' className='active'></li>
+												</ol>
+												<div className='carousel-inner'>
+													<div className='carousel-item active'>
+														<img className='img-fluid d-block' src={aproj1} alt='Attitunes Overview'/>
+													</div>
+													<div className='carousel-item'>
+														<img className='img-fluid d-block' src={aproj2} alt='Attitunes Demo'/>
+													</div>
+													<div className='carousel-item'>
+														<img className='img-fluid d-block' src={aproj3} alt='Attitunes Results'/>
+													</div>
+													<div className='carousel-item'>
+														<img className='img-fluid d-block' src={aproj4} alt='Attitunes Mobile Demo 1'/>
+													</div>
+													<div className='carousel-item'>
+														<img className='img-fluid d-block' src={aproj5} alt='Attitunes Mobile Demo 2'/>
+													</div>
+												</div>
+												<a className='carousel-control-prev' href='#carousel-list' role='button' data-slide='prev'>
+													<span className='carousel-control-prev-icon' aria-hidden='true'></span>
+													<span className='sr-only'>Previous</span>
+												</a>
+												<a className='carousel-control-next' href='#carousel-list' role='button' data-slide='next'>
+													<span className='carousel-control-next-icon' aria-hidden='true'></span>
+													<span className='sr-only'>Next</span>
+												</a>
+											</div>
+										</div>
+										<div className='project-modal-text'>
+											<p className='text'>
+												A desktop & mobile software application that plays music
+												based on a user’s facial emotions using Microsoft Cognitive Services API.
+												Implemented a KNN algorithm under a strict pair programming regiment
+												to weigh facial emotions with predetermined song values.
+											</p>
+											<p className='text'>
+												<b>Languages:</b> C++/C#, Java
+											</p>
+											<p className='text'>
+												<b>Frameworks:</b> Microsoft Azure Cognitive Services, AForge
+											</p>
+											<p className='text'>
+												<b>Applications:</b> Android Studio, Visual Studio, Xamarin
+											</p>
+										</div>
+										<div className='project-modal-btn'>
+											<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -152,33 +154,31 @@ class projects extends Component {
 									<i className='material-icons'>close</i>
 								</a>
 								<div className='container-fluid'>
-									<div className='row'>
-										<div className='col-lg-11 mx-auto'>
-											<div className='project-modal-title'>
-												<h2 className=''>Mercy Medical Clinic</h2>
-												<h3 className='text-secondary my-3'>A Clinical DBMS</h3>
-												<hr className='doc-dark mb-5'></hr>
-												<img className='img-fluid mb-5' src={mproj} alt='Mercy'/>
-											</div>
-											<div className='project-modal-text'>
-												<p className='text mb-3'>
-													A clinical database management system in SQL
-													that allows CRUD operations to a remote server for employees
-													and patients through a responsive graphical user interface.
-												</p>
-												<p className='text mb-3'>
-													<b>Languages:</b> PHP, jQuery, AJAX, XML, SQL
-												</p>
-												<p className='text mb-3'>
-													<b>Frameworks:</b> Bootstrap 3, React.js
-												</p>
-												<p className='text mb-3'>
-													<b>Applications:</b> Visual Studio, Notepad++, SQL Developer, Oracle
-												</p>
-											</div>
-											<div className='project-modal-btn'>
-												<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
-											</div>
+									<div className='col-10 col-lg-11 mx-auto'>
+										<div className='project-modal-title'>
+											<h2 className=''>Mercy Medical Clinic</h2>
+											<h3 className='text-secondary my-2'>A Clinical DBMS</h3>
+											<hr className='doc-dark mb-5'></hr>
+											<img className='img-fluid mb-5' src={mproj} alt='Mercy'/>
+										</div>
+										<div className='project-modal-text'>
+											<p className='text mb-3'>
+												A clinical database management system in SQL
+												that allows CRUD operations to a remote server for employees
+												and patients through a responsive graphical user interface.
+											</p>
+											<p className='text mb-3'>
+												<b>Languages:</b> PHP, jQuery, AJAX, XML, SQL
+											</p>
+											<p className='text mb-3'>
+												<b>Frameworks:</b> Bootstrap 3, React.js
+											</p>
+											<p className='text mb-3'>
+												<b>Applications:</b> Visual Studio, Notepad++, SQL Developer, Oracle
+											</p>
+										</div>
+										<div className='project-modal-btn'>
+											<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
 										</div>
 									</div>
 								</div>
@@ -190,32 +190,30 @@ class projects extends Component {
 									<i className='material-icons'>close</i>
 								</a>
 								<div className='container-fluid'>
-									<div className='row'>
-										<div className='col-lg-11 mx-auto'>
-											<div className='project-modal-title'>
-												<h2 className=''>CSUB C.S. Website</h2>
-												<h3 className='text-secondary my-3'>A Responsive Side Project</h3>
-												<hr className='device-dark mb-5'></hr>
-												<img className='img-fluid mb-5' src={cproj} alt='CSUB'/>
-											</div>
-											<div className='project-modal-text'>
-												<p className='text mb-3'>
-													This side project was intended to redesign the Computer Science department’s main website,
-													focusing on more easily accessible and responsive features for desktops, tablets, and mobile devices.
-												</p>
-												<p className='text mb-3'>
-													<b>Languages:</b> HTML/CSS, JavaScript
-												</p>
-												<p className='text mb-3'>
-													<b>Frameworks:</b> Bootstrap 3
-												</p>
-												<p className='text mb-3'>
-													<b>Applications:</b> JetBrains CLion, Putty, Notepad++
-												</p>
-											</div>
-											<div className='project-modal-btn'>
-												<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
-											</div>
+									<div className='col-10 col-lg-11 mx-auto'>
+										<div className='project-modal-title'>
+											<h2 className=''>CSUB C.S. Website</h2>
+											<h3 className='text-secondary my-2'>A Responsive Side Project</h3>
+											<hr className='device-dark mb-5'></hr>
+											<img className='img-fluid mb-5' src={cproj} alt='CSUB'/>
+										</div>
+										<div className='project-modal-text'>
+											<p className='text mb-3'>
+												This side project was intended to redesign the Computer Science department’s main website,
+												focusing on more easily accessible and responsive features for desktops, tablets, and mobile devices.
+											</p>
+											<p className='text mb-3'>
+												<b>Languages:</b> HTML/CSS, JavaScript
+											</p>
+											<p className='text mb-3'>
+												<b>Frameworks:</b> Bootstrap 3
+											</p>
+											<p className='text mb-3'>
+												<b>Applications:</b> JetBrains CLion, Putty, Notepad++
+											</p>
+										</div>
+										<div className='project-modal-btn'>
+											<a className='btn btn-primary btn-lg rounded-pill project-modal-dismiss' href='#/'>Close</a>
 										</div>
 									</div>
 								</div>

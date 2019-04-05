@@ -12,20 +12,35 @@ class Interests extends Component {
 						<div className='container py-5'>
 							<h2 className='text-center'>Interests</h2>
 							<hr className='hot-dark'/>
-							<div className="card-deck py-3">
-								<div className="card">
-									<div className="card-body">
-										<p className="card-text">Alumni of the Sigma Chi Fraternity</p>
+							<div className='container'>
+								<div className="row">
+									<div className='item col-6 col-lg-3'>
+										<div className="card">
+											<div className="card-body">
+												<p className="card-text">Alumni of the Sigma Chi Fraternity</p>
+											</div>
+										</div>
 									</div>
-								</div>
-								<div className="card">
-									<div className="card-body">
-										<p className="card-text">CSUB Computer Science Club</p>
+									<div className='item col-6 col-lg-3'>
+										<div className="card">
+											<div className="card-body">
+												<p className="card-text">CSUB Computer Science Club</p>
+											</div>
+										</div>
 									</div>
-								</div>
-								<div className="card">
-									<div className="card-body">
-										<p className="card-text">KIT Community & MESH Cowork</p>
+									<div className='item col-6 col-lg-3'>
+										<div className="card">
+											<div className="card-body">
+												<p className="card-text">KIT Community & MESH Cowork</p>
+											</div>
+										</div>
+									</div>
+									<div className='item col-6 col-lg-3'>
+										<div className="card">
+											<div className="card-body">
+												<p className="card-text">Volunteer Aide for Hazeltine Elementary & Valey Alternative School</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
