@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/attitunes-logo.0eef4673.png"
   },
   {
-    "revision": "7e1dd44e71549555ec45",
+    "revision": "e42449f44ce6a10c1d6a",
     "url": "/portfolio/static/css/main.9dc21c51.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/xamarin-logo.d3790ec1.png"
   },
   {
-    "revision": "7e1dd44e71549555ec45",
-    "url": "/portfolio/static/js/main.7e1dd44e.chunk.js"
+    "revision": "e42449f44ce6a10c1d6a",
+    "url": "/portfolio/static/js/main.e42449f4.chunk.js"
   },
   {
     "revision": "7352dc4560a53d6482b7ed65afd9fd38",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/safeway-logo.f4937550.png"
   },
   {
-    "revision": "9aae885993005510181118ed9e9913c8",
+    "revision": "692e2c8974e568d9659424c857570641",
     "url": "/portfolio/index.html"
   }
 ];
