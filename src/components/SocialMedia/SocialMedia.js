@@ -20,7 +20,7 @@ class SocialMedia extends Component {
 						<div className='col-4 m-auto'>
 							<i className='material-icons'>place</i>
 							<p>
-								<a href='http://maps.google.com/maps?q=22123+Cohasset+St,+Canoga+Park,+CA+91303' target='_blank'>
+								<a href='http://maps.google.com/maps?q=22123+Cohasset+St,+Canoga+Park,+CA+91303' target='_blank' rel='noopener noreferrer'>
 								<span>22123 Cohasset St.</span>
 								Canoga Park, CA 91303
 								</a>
