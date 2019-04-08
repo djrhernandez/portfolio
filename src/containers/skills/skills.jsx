@@ -46,7 +46,7 @@ class Skills extends Component {
 									</div>
 									<div className='card-content'>
 										<div className='images row'>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -57,7 +57,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -69,7 +69,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -80,7 +80,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -91,7 +91,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -102,7 +102,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -113,7 +113,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -124,7 +124,7 @@ class Skills extends Component {
 												</div>
 											</div>
 
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -145,7 +145,7 @@ class Skills extends Component {
 									</div>
 									<div className='card-content'>
 										<div className='images row'>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -155,7 +155,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Bootstrap 4</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -165,7 +166,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>jQuery</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -175,7 +177,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>JSON</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -185,7 +188,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Node.js</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -195,7 +199,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>React.js</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -217,7 +222,7 @@ class Skills extends Component {
 									</div>
 									<div className='card-content'>
 										<div className='images row'>
-											<div className='col-6 col-sm-6 col-lg-3 mx-auto'>
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -227,7 +232,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Mac OS X</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -237,7 +243,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Linux Mint</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -247,7 +254,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Unix</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -268,7 +276,8 @@ class Skills extends Component {
 									</div>
 									<div className='card-content'>
 										<div className='images row'>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -278,7 +287,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Android Studio</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -288,7 +298,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Atom</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -298,7 +309,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Microsoft Azure</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -308,7 +320,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>JetBrains</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -318,7 +331,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Netbeans</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -328,7 +342,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Vim</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -338,7 +353,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Visual Studio</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -348,7 +364,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>VMWare</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -358,7 +375,8 @@ class Skills extends Component {
 													<div className='card-footer image-text'>X11</div>
 												</div>
 											</div>
-											<div className='col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
+
+											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
 												<div className='card'>
 													<div className='card-body'>
 														<div className='image-item'>
@@ -368,6 +386,7 @@ class Skills extends Component {
 													<div className='card-footer image-text'>Xamarin</div>
 												</div>
 											</div>
+											
 										</div>
 									</div>
 								</div>

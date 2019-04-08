@@ -1,20 +1,51 @@
 import styled from "styled-components"
 import { SocialIcon } from "react-social-icons"
-//import media from "../../themes/media"
+import { colors } from '../../themes/variables'
+import media from "../../themes/media"
 
-export const Footer = styled.ul`
-	margin:				15px auto;
-	padding: 			15px;
-	display: 			flex;
-	justify-content: 	center;
+export const Footer = styled.div`
+	.social-media {
+		color:				${({color}) => colors.ivory};
+		background-color:	${({color}) => colors.mud};
 
-	li {
-		list-style-type:	none;
+		.contact {
+			text-align: center;
+			
+			.material-icons {
+				padding: 0.50rem;
+				vertical-align: middle;
+			}
+
+			div {
+				margin-bottom: 0.25rem;
+			}
+
+			p {
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0;
+
+				span {
+					display: block;
+				}
+			}
+		}
+
+		.media-list {
+			margin:				auto;
+			padding: 			15px;
+			display: 			flex;
+			justify-content: 	center;
+
+			li {
+				list-style-type:	none;
+			}
+		}
 	}
 `;
 
 export const Social = styled(SocialIcon)`
-	margin: 			0 30px;
+	margin: 			0 1rem;
 	border-radius: 		50%;
 	transition: 		transform 0.6s ease-in-out;
 	-webkit-transition: -webkit-transform 0.6s ease-in-out;

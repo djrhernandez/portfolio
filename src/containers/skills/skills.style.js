@@ -45,11 +45,14 @@ export const Section = styled.div`
 			border:				0;
 
 			.card-header {
-
 				border:				0;
 				text-align:			center;
 				color:				${({color}) => colors.ivory}
 				background-color:	${({color}) => colors.mud};
+
+				${media.medium`
+					padding: 0.50rem;
+				`}
 
 				&:after {
 					content:		"";
@@ -76,6 +79,12 @@ export const Section = styled.div`
 	.images {
 		padding-bottom:	1rem;
 
+		.column {
+			${media.small`
+				padding: 0rem 2.5rem;
+			`}
+		}
+
 		.card {
 			margin:				1rem auto!important;
 			border-radius: 		1rem;
@@ -89,46 +98,56 @@ export const Section = styled.div`
 			`};
 
 			.card-body {
-				padding:			2rem;
+				padding:			1rem;
 				text-align:			center;
 				background-color:	${({color}) => colors.azure};
+				${media.small`
+					padding: 	0.50rem;
+					font-size: 	1rem;
+				`}
+
+				${media.medium`
+					padding:	0.75rem;
+				`}
+
 				${media.large`
 					padding:	1rem;
 				`};
 			}
 
 			.card-footer {
-				font-size:		1rem;
-				font-weight:	700;
 				background-color:	${({color}) => colors.ivory};
 			}
 		}
 
 		.image-item {
-			margin-bottom:	0.5rem;
+			margin-bottom:	0.25rem;
 
 			.img-fluid {
 				display:	table-cell;
-				margin:		0 auto!important;
-				min-width:	64px;
-				min-height:	64px;
-				max-height:	128px;
-				max-width:	96px;
+				margin:		auto!important;
 				${media.small`
+					min-width:	64px;
+					min-height:	64px;
+					max-width:	96px;
+					max-height:	128px;
 				`};
 			}
 		}
 
 		.image-text {
-			padding:		1rem;
+			padding:		0.50rem 1rem;
 			letter-spacing:	1px;
-			font-size:		1.25rem;
 			font-family:	Montserrat;
 			text-align:		center;
 			color:			${({color}) => colors.mud};
 
+			${media.small`
+				font-size:	1.15rem;
+			`}
+
 			${media.desktop`
-				font-size:		1.3rem;
+				font-size:	1.25rem;
 			`};
 
 		}

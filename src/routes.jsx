@@ -1,17 +1,17 @@
-import React from 'react';
-import { IndexRoute, Router, Route, hashHistory } from 'react-router';
-//import Home from './containers/Home/Home';
-import App from 'App';
-//import Projects from './containers/Projects/Projects'
-//import Aboutme from './containers/Aboutme/Aboutme'
+import React from 'react'
+import { Route, Router, IndexRoute, hashHistory } from 'react-router'
 
+import App from 'App'
+import Attitunes from 'components/Attitunes/Attitunes'
+import Mercy from 'components/Mercy/Mercy'
+import CSUBak from 'components/CSUBak/CSUBak'
 
+/* WIP */
 export default (
-    <Router history = { hashHistory }>
-        <Route path = '/' component= { App }>
-            <IndexRoute component= { Profile }/>
-            <Route path = '/projects' component = { Projects }/>
-            <Route path = '/profile' component = { Profile }/>
-        </Route>
-    </Router>
+    <Route path = '/' component= { App }>
+
+        <Route path = '/components/Attitunes' component = { Attitunes }/>
+        <Route path = '/components/Mercy' component = { Mercy }/>
+        <Route path = '/components/CSUBak' component = { CSUBak }/>
+    </Route>
 );
