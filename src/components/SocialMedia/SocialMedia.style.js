@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { SocialIcon } from "react-social-icons"
 import { colors } from '../../themes/variables'
-//import media from "../../themes/media"
+import media from "../../themes/media"
 
 export const Footer = styled.div`
 	.social-media {
@@ -10,13 +10,14 @@ export const Footer = styled.div`
 
 		.contact {
 			text-align: center;
-
+			
 			.material-icons {
 				padding: 0.50rem;
 				vertical-align: middle;
 			}
 
 			div {
+
 				margin-bottom: 0.25rem;
 			}
 
@@ -24,9 +25,17 @@ export const Footer = styled.div`
 				display: inline-block;
 				vertical-align: middle;
 				margin: 0;
+				text-align: left;
+
+				${media.medium`
+					text-align: center;
+				`}
 
 				span {
 					display: block;
+				}
+				a {
+					vertical-align: middle;
 				}
 			}
 		}

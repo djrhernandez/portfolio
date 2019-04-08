@@ -17,7 +17,7 @@ class SocialMedia extends Component {
 					</div>
 
 					<div className='contact row'>
-						<div className='col-4 m-auto'>
+						<div className='col-md-4'>
 							<i className='material-icons'>place</i>
 							<p>
 								<a href='http://maps.google.com/maps?q=22123+Cohasset+St,+Canoga+Park,+CA+91303' target='_blank' rel='noopener noreferrer'>
@@ -26,13 +26,13 @@ class SocialMedia extends Component {
 								</a>
 							</p>
 						</div>
-						<div className='col-4 m-auto'>
+						<div className='col-md-4'>
 							<p>
 								<i className='material-icons'>email</i>
 								<a href='mailto:djrhernandez@yahoo.com'>djrhernandez@yahoo.com</a>
 							</p>
 						</div>
-						<div className='col-4 m-auto'>
+						<div className='col-md-4'>
 							<p>
 								<i className='material-icons'>local_phone</i>
 								<a href='tel:+16614443691'>(661) 444-3691</a>
