@@ -36,9 +36,9 @@ class About extends Component {
 									<div className='col-text'>
 										<div className='text'>
 											<p>
-												Moved to Salem in 2010 where I attended played collegiate football, and graduated
-												with a bachelors degree in Economics at Willamette University. I stayed up in Oregon
-												for a year to evaluate my career path and enjoy the wonders of the Pacific Northwest.
+												Graduated with a Bachelors in Economics at Willamette University (Salem, OR) in 2014.
+												Played collegiate football and joined the Sigma Chi Fraternity during my tenure. I also
+												spent a year in Salem to evaluate my career path and enjoy the wonders of the Pacific Northwest.
 											</p>
 										</div>
 									</div>
@@ -51,25 +51,13 @@ class About extends Component {
 									<div className='col-text'>
 										<div className='text'>
 										<p>
-											I moved back to California in 2015 and discovered a bigger passion for computer science.
-											So I earned my 2nd bachelors degree at CSUB and moved to the City of Angels to seek personal
-											growth and opportunity. I'm still actively looking for my career and I'm excited for what the future holds.
+											Moved back to Bakersfield, CA in 2015 to earned another bachelors at CSUB in computer science, then to
+											Los Angeles where I worked at Hulu for 3 years as a NOC Incident Manager and Senior Software Engineer.
+											I currently work as a Software Developer for Other World Computing.
 										</p>
 										</div>
 									</div>
 								</div>
-								{/*<div className='col-state col-12'>
-									<img className='col-ca' src={cali} alt='California'/>
-									<div className='col-text'>
-										<p className='text'>
-										Offering extensive knowledge of frontend and backend software design,
-										development and testing of software applications,
-										and deployment and support using agile development
-										methodologies.
-										</p>
-									</div>
-								</div>
-								*/}
 							</div>
 						</div>
 					</section>

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Container } from "./Header.style"
-import portrait from '../../containers/images/portrait.jpg'
+import portrait from '../../containers/images/portrait.jpeg'
 
 class Header extends Component {
 	render() {
