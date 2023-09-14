@@ -9,7 +9,6 @@ import CSUBak from 'components/CSUBak/CSUBak'
 /* WIP */
 export default (
     <Route path = '/' component= { App }>
-
         <Route path = '/components/Attitunes' component = { Attitunes }/>
         <Route path = '/components/Mercy' component = { Mercy }/>
         <Route path = '/components/CSUBak' component = { CSUBak }/>

@@ -29,9 +29,8 @@ class App extends Component {
 						<SocialMedia/>
 						<div className='scroll-to-top d-lg-none position-fixed'>
 							<a className='js-scroll-trigger d-block' href='#page-top'>
-							<i className='material-icons'>expand_less</i>
+								<i className='material-icons'>expand_less</i>
 							</a>
-							{/*<p id="size" className='text-center'></p>*/}
 						</div>
 					</Wrapper>
             	</div>

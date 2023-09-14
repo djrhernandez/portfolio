@@ -4,9 +4,9 @@ import media from "../themes/media";
 
 /* Used in App.js */
 export const Wrapper = styled.div`
-	padding:	0;
+	padding: 0 4rem;
 	${media.large`
-		padding:	0 8rem;
+		padding: 0 16rem;
 	`};
 `;
 
