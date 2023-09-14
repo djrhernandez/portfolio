@@ -31,7 +31,7 @@ export const Objective = styled.div`
 
 			.img-fluid {
 				min-height:	250px;
-				/*max-height:	300px;*/
+				// max-height:	300px;
 				margin:		0 auto;
 				height:		inherit;
 			}
@@ -57,7 +57,7 @@ export const Objective = styled.div`
 			.text {
 				display:		table-cell;
 				vertical-align:	middle;
-				font-size:		1.1rem;
+				font-size:		1rem;
 				font-family:	Raleway;
 				padding:	1rem 0;
 
