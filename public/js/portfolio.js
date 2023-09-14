@@ -5,8 +5,6 @@
  */
 
 (function($) {
-	"use strict";
-
 	//Smooth scrolling using jQuery easing
 	$(function() { //<--------------- WHY DO I NEED TO PUT THIS LINE OF FUCKING CODE HERE IN ORDER FOR IT TO WORK?!?!?!?!?!
 		//Select all links with hashes, but remove links that don't link to anything
@@ -75,6 +73,7 @@
 		});
 
 		$(document).on("click", ".project-modal-dismiss", function(e) {
+			// eslint-disable-next-line no-unused-expressions
 			e.preventDefault(),
 			$.magnificPopup.close();
 		});
