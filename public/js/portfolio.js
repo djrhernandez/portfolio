@@ -6,7 +6,7 @@
 
 (function($) {
 	//Smooth scrolling using jQuery easing
-	$(function() { //<--------------- WHY DO I NEED TO PUT THIS LINE OF FUCKING CODE HERE IN ORDER FOR IT TO WORK?!?!?!?!?!
+	$(function() {
 		//Select all links with hashes, but remove links that don't link to anything
 		$('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function(ev) {
 			//On-page links
