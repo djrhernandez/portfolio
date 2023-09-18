@@ -51,7 +51,7 @@ class About extends Component {
 									<div className='col-text'>
 										<div className='text'>
 										<p>
-											Moved back to Bakersfield, CA in 2015 to earned another bachelors at CSUB in computer science, then to
+											Moved back to Bakersfield, CA in 2015 to earn another bachelors at CSUB in computer science, then to
 											Los Angeles where I worked at Hulu for 3 years as a NOC Incident Manager and Senior Software Engineer.
 											I currently work as a Software Developer for Other World Computing.
 										</p>

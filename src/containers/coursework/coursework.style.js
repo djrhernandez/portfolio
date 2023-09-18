@@ -4,8 +4,8 @@ import media from "../../themes/media"
 
 export const Courses = styled.div`
 	.coursework {
-		color:				${({color}) => colors.mud};
-		background-color:	${({color}) => colors.ivory};
+		color:				${({color}) => colors.ivory};
+		background-color:	${({color}) => colors.mud};
 
 		.row {
 			margin:		0 1rem;
@@ -21,7 +21,7 @@ export const Courses = styled.div`
 		.card {
 			border-radius:		0.25rem;
 			box-shadow:			0px 0px 15px 5px rgba(0, 0, 0, 0.125) inset;
-			
+
 
 			.card-header {
 				font-weight:	700;
@@ -59,6 +59,7 @@ export const Courses = styled.div`
 
 			.card-body {
 				padding:	1rem;
+				color:		${({color}) => colors.mud};
 
 				${media.large`
 					font-size:	1.1rem;

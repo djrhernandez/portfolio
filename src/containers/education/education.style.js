@@ -9,7 +9,7 @@ export const Sector = styled.div`
 
 		.edu-item {
 			padding:			1rem 0rem;
-			margin:				1rem;
+			margin:				4rem 2rem 0rem 2rem;
 			color:				${({color}) => colors.mud};
 			background-color:	${({color}) => colors.ivory};
 			box-shadow:			0px 5px 10px 0px rgba(0, 0, 0, 1),

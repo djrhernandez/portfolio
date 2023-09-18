@@ -10,7 +10,7 @@ class Coursework extends Component {
 					<section className='coursework' id='coursework'>
 						<div className='container-fluid px-3 py-5'>
 							<h2 className='text-center'>Related Coursework</h2>
-							<hr className='subject-dark'/>
+							<hr className='subject-light'/>
 							<div className="row">
 								<div id="accordion" className="col-12 col-sm-6 mx-auto" role="tablist" aria-multiselectable="true">
 									{/* Web Development */}

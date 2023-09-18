@@ -15,12 +15,12 @@ class Resume extends Component {
 		return (
 			<React.Fragment>
 				<Section>
-					<About/>
+					<About />
 					<Skills/>
-					<Projects/>
-					<Education/>
-					<Coursework/>
 					<Experience/>
+					<Education />
+					<Projects/>
+					<Coursework/>
 					<Interests/>
 				</Section>
 			</React.Fragment>
