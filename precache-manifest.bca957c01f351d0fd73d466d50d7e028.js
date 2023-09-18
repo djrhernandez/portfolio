@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7136f2b563eb4e1fac7e",
-    "url": "/portfolio/static/css/main.aeb63ef6.chunk.css"
+    "revision": "6af43a614bb1994eb6e5",
+    "url": "/portfolio/static/css/main.f8f46c40.chunk.css"
   },
   {
-    "revision": "7136f2b563eb4e1fac7e",
-    "url": "/portfolio/static/js/main.7136f2b5.chunk.js"
+    "revision": "6af43a614bb1994eb6e5",
+    "url": "/portfolio/static/js/main.6af43a61.chunk.js"
   },
   {
-    "revision": "7635fcd44a2c6f6b26fe",
-    "url": "/portfolio/static/js/1.7635fcd4.chunk.js"
+    "revision": "cbac7a087d2e45d7f527",
+    "url": "/portfolio/static/js/1.cbac7a08.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -104,11 +104,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/bestbuy-logo.0b186e3b.png"
   },
   {
+    "revision": "a9310ddf2a4b9305bc48a24fa3bfbddf",
+    "url": "/portfolio/static/media/owc-logo.a9310ddf.png"
+  },
+  {
     "revision": "f4937550c3d5fb7615a1b293ba67ca0a",
     "url": "/portfolio/static/media/safeway-logo.f4937550.png"
   },
   {
-    "revision": "89518b5aadbdc403e16a445afbceeedf",
+    "revision": "17b89dc959159a7a8bfcdcb2749b8172",
     "url": "/portfolio/index.html"
   }
 ];

@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.aeb63ef6.chunk.css",
-  "main.js": "/portfolio/static/js/main.7136f2b5.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.7136f2b5.chunk.js.map",
-  "static/js/1.7635fcd4.chunk.js": "/portfolio/static/js/1.7635fcd4.chunk.js",
-  "static/js/1.7635fcd4.chunk.js.map": "/portfolio/static/js/1.7635fcd4.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.f8f46c40.chunk.css",
+  "main.js": "/portfolio/static/js/main.6af43a61.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.6af43a61.chunk.js.map",
+  "static/js/1.cbac7a08.chunk.js": "/portfolio/static/js/1.cbac7a08.chunk.js",
+  "static/js/1.cbac7a08.chunk.js.map": "/portfolio/static/js/1.cbac7a08.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/willamette-logo.png": "/portfolio/static/media/willamette-logo.31c69a3f.png",
@@ -28,9 +28,10 @@
   "static/media/csub-website-project.png": "/portfolio/static/media/csub-website-project.3748bbd7.png",
   "static/media/csub-logo.png": "/portfolio/static/media/csub-logo.14c53372.png",
   "static/media/bestbuy-logo.png": "/portfolio/static/media/bestbuy-logo.0b186e3b.png",
+  "static/media/owc-logo.png": "/portfolio/static/media/owc-logo.a9310ddf.png",
   "static/media/safeway-logo.png": "/portfolio/static/media/safeway-logo.f4937550.png",
-  "static/css/main.aeb63ef6.chunk.css.map": "/portfolio/static/css/main.aeb63ef6.chunk.css.map",
+  "static/css/main.f8f46c40.chunk.css.map": "/portfolio/static/css/main.f8f46c40.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.6f21aee21a114bfbb1abc482c53a63cc.js": "/portfolio/precache-manifest.6f21aee21a114bfbb1abc482c53a63cc.js",
+  "precache-manifest.bca957c01f351d0fd73d466d50d7e028.js": "/portfolio/precache-manifest.bca957c01f351d0fd73d466d50d7e028.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
