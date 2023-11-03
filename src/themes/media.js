@@ -1,6 +1,6 @@
 import { css } from "styled-components"
 
-const media = { small, medium, large, desktop };
+const media = { xsmall, small, medium, large, desktop };
 
 const sizes = {
 	xsmall:		575,
@@ -10,7 +10,7 @@ const sizes = {
 	desktop:	1200
 }
 
-/* Any device w/screen smaller than 576px
+/* Any device w/screen smaller than 576px */
 function xsmall(...args) {
 	return css`
 		@media (max-width: ${sizes.xsmall}px) {
@@ -18,7 +18,6 @@ function xsmall(...args) {
 		}
 	`;
 }
-*/
 
 /* Landscape Phones above 576px */
 function small(...args) {

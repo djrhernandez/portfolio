@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from '../../themes/variables';
+import { colors } from '../../themes/colors';
 
 export const Snippet = styled.div`
 	font-size:			0.9em;

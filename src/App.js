@@ -3,8 +3,8 @@ import Navigation from './components/Navigation/Navigation'
 import Header from './components/Header/Header'
 import Resume from './components/Resume/Resume'
 import SocialMedia from './components/SocialMedia/SocialMedia'
-import { Wrapper } from './themes/grid'
-import './App.css'
+import { Wrapper } from './themes/layout'
+import './styles/App.scss'
 
 class App extends Component {
 	constructor() {
@@ -20,21 +20,19 @@ class App extends Component {
 
     render() {
         return (
-			<React.Fragment>
-            	<div className="App container-fluid">
-					<Wrapper>
-						<Navigation/>
-						<Header/>
-						<Resume/>
-						<SocialMedia/>
-						<div className='scroll-to-top d-lg-none position-fixed'>
-							<a className='js-scroll-trigger d-block' href='#page-top'>
-								<i className='material-icons'>expand_less</i>
-							</a>
-						</div>
-					</Wrapper>
-            	</div>
-			</React.Fragment>
+			<div className='App'>
+				<Wrapper>
+					<Navigation/>
+					<Header/>
+					<Resume/>
+					<SocialMedia/>
+					<div className='scroll-to-top'>
+						<a className='js-scroll-trigger' href='#page-top'>
+							<i className='material-icons'>expand_less</i>
+						</a>
+					</div>
+				</Wrapper>
+			</div>
         );
     }
 }

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { SocialIcon } from "react-social-icons"
-import { colors } from '../../themes/variables'
+import { colors } from '../../themes/colors'
 import media from "../../themes/media"
 
 export const Footer = styled.div`

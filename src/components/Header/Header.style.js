@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { colors } from '../../themes/variables'
+import { colors } from '../../themes/colors'
 import media from "../../themes/media"
 
 export const Container = styled.div`

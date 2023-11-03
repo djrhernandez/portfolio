@@ -28,6 +28,7 @@ import windows from '../images/apps/windows-logo.png'
 import x11 from '../images/apps/x11-logo.png'
 import xamarin from '../images/apps/xamarin-logo.png'
 //import  from '../images/-logo.png'
+import { Grid } from '../../themes/layout.js'
 
 class Skills extends Component {
 	render() {
@@ -35,363 +36,290 @@ class Skills extends Component {
 			<React.Fragment>
 				<Section>
 					<section className='skills' id='skills'>
-						<div className='container py-5'>
-							<h2 className='text-center'>skills</h2>
+						<div className='header'>
+							<h2 className='title'>skills</h2>
 							<hr className='poly-light'/>
-							<div className='container'>
-								{/* Programming Languages */}
+						</div>
+
+						<h3 className='font-weight-light'>Languages</h3>
+						<div className='partition'>
+							<Grid>
 								<div className='card'>
 									<div className='card-header'>
-										<h3 className='font-weight-light'>Languages</h3>
-									</div>
-									<div className='card-content'>
-										<div className='images row'>
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={cplus} alt='C++'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>C++/C#</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-
-															<img className='img-fluid' src={java} alt='Java'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Java</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={python} alt='Python'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Python</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={sql} alt='SQL'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>SQL</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={html} alt='HTML'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>HTML5/CSS3</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={jscript} alt='JavaScript'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>JavaScript</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={react} alt='JSX'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>JSX</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={php} alt='PHP'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>PHP</div>
-												</div>
-											</div>
+										<div className='images'>
+											<img className='img-fluid' src={cplus} alt='C++'/>
 										</div>
 									</div>
+									<div className='card-footer image-text'>C++/C#</div>
 								</div>
-
-								{/* Frameworks */}
+								
 								<div className='card'>
 									<div className='card-header'>
-										<h3 className='font-weight-light'>Frameworks</h3>
-									</div>
-									<div className='card-content'>
-										<div className='images row'>
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={boot} alt='Bootstrap 4'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Bootstrap 4</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={jquery} alt='jQuery'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>jQuery</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={json} alt='JSON'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>JSON</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={node} alt='Node.js'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Node.js</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={react} alt='React.js'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>React.js</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={redux} alt='Redux'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Redux</div>
-												</div>
-											</div>
+										<div className='images'>
+											<img className='img-fluid' src={java} alt='Java'/>
 										</div>
 									</div>
+									<div className='card-footer image-text'>Java</div>
 								</div>
 
-								{/* Operating Systems */}
 								<div className='card'>
 									<div className='card-header'>
-										<h3 className='font-weight-light'>Operating Systems</h3>
-										<div className='card-shadow'/>
-									</div>
-									<div className='card-content'>
-										<div className='images row'>
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={apple} alt='Mac OS X'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Mac OS X</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={linux} alt='Linux'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Linux Mint</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={unix} alt='Unix'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Unix</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={windows} alt='Windows'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Windows</div>
-												</div>
-											</div>
+										<div className='images'>
+											<img className='img-fluid' src={python} alt='Python'/>
 										</div>
 									</div>
+									<div className='card-footer image-text'>Python</div>
 								</div>
 
-								{/* Software Applications */}
 								<div className='card'>
 									<div className='card-header'>
-										<h3 className='font-weight-light'>Software Applications</h3>
-									</div>
-									<div className='card-content'>
-										<div className='images row'>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={android} alt='Android Studio'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Android Studio</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={atom} alt='Atom'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Atom</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={azure} alt='Azure'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Microsoft Azure</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={jetbrains} alt='JetBrains'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>JetBrains</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={netbeans} alt='Netbeans'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Netbeans</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={vim} alt='Vim'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Vim</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={visual} alt='Visual Studio'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Visual Studio</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={vmware} alt='VMWare'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>VMWare</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={x11} alt='X11'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>X11</div>
-												</div>
-											</div>
-
-											<div className='column col-6 col-sm-6 col-lg-5 col-xl-3 mx-auto'>
-												<div className='card'>
-													<div className='card-body'>
-														<div className='image-item'>
-															<img className='img-fluid' src={xamarin} alt='Xamarin'/>
-														</div>
-													</div>
-													<div className='card-footer image-text'>Xamarin</div>
-												</div>
-											</div>
-											
+										<div className='images'>
+											<img className='img-fluid' src={sql} alt='SQL'/>
 										</div>
 									</div>
+									<div className='card-footer image-text'>SQL</div>
 								</div>
+
+								<div className='card'>
+									<div className='card-header'>
+										<div className='images'>
+											<img className='img-fluid' src={html} alt='HTML'/>
+										</div>
+									</div>
+									<div className='card-footer image-text'>HTML5/CSS3</div>
+								</div>
+
+								<div className='card'>
+									<div className='card-header'>
+										<div className='images'>
+											<img className='img-fluid' src={jscript} alt='JavaScript'/>
+										</div>
+									</div>
+									<div className='card-footer image-text'>JavaScript</div>
+								</div>
+
+								<div className='card'>
+									<div className='card-header'>
+										<div className='images'>
+											<img className='img-fluid' src={react} alt='JSX'/>
+										</div>
+									</div>
+									<div className='card-footer image-text'>JSX</div>
+								</div>
+
+								<div className='card'>
+									<div className='card-header'>
+										<div className='images'>
+											<img className='img-fluid' src={php} alt='PHP'/>
+										</div>
+									</div>
+									<div className='card-footer image-text'>PHP</div>
+								</div>
+							</Grid>
+						</div>
+
+						<div className='partition'>
+							<div className='body'>
+								<h3 className='font-weight-light'>Frameworks</h3>
+								<Grid>
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={boot} alt='Bootstrap 4'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Bootstrap 4</div>
+									</div>
+									
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={jquery} alt='jQuery'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>jQuery</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={json} alt='JSON'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>JSON</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={node} alt='Node.js'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Node.js</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={react} alt='React.js'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>React.js</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={redux} alt='Redux'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Redux</div>
+									</div>
+								</Grid>
 							</div>
 						</div>
+
+						<div className='partition'>
+							<div className='body'>
+								<h3 className='font-weight-light'>Operating Systems</h3>
+								<Grid>
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={apple} alt='Mac OS X'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Mac OS X</div>
+									</div>
+									
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={linux} alt='Linux'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Linux Mint</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={unix} alt='Unix'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Unix</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={windows} alt='Windows'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Windows</div>
+									</div>
+								</Grid>
+							</div>
+						</div>
+
+						<div className='partition'>
+							<div className='body'>
+								<h3 className='font-weight-light'>Software Applications</h3>
+								<Grid>
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={android} alt='Android Studio'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Android Studio</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={atom} alt='Atom'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Atom</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={azure} alt='Azure'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Microsoft Azure</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={jetbrains} alt='JetBrains'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>JetBrains</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={netbeans} alt='Netbeans'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Netbeans</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={vim} alt='Vim'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Vim</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={visual} alt='Visual Studio'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Visual Studio</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={vmware} alt='VMWare'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>VMWare</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={x11} alt='X11'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>X11</div>
+									</div>
+
+									<div className='card'>
+										<div className='card-header'>
+											<div className='images'>
+												<img className='img-fluid' src={xamarin} alt='Xamarin'/>
+											</div>
+										</div>
+										<div className='card-footer image-text'>Xamarin</div>
+									</div>
+
+								</Grid>
+							</div>
+						</div>
+						
 					</section>
 				</Section>
 			</React.Fragment>
